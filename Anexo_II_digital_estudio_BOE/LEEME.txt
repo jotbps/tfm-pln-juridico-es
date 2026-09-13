@@ -1,0 +1,9 @@
+ANEXO II DIGITAL - ESTUDIO EXPLORATORIO BOE
+
+Contenido:
+- codigo/tfm_boe_experiment.py: script principal empleado.
+- codigo/requirements.txt: dependencias.
+- datos/terminos_juridicos_125.csv: listado de expresiones.
+- resultados/: tablas, figuras, manifiesto de reproducibilidad y registro de ejecución.
+
+La muestra final contiene 400 disposiciones BOE-A de 2021-2025. El fichero manifiesto_reproducibilidad.json documenta la selección, las revisiones exactas de los tokenizadores y los parámetros del baseline.

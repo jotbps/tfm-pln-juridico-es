@@ -1,0 +1,38 @@
+{
+  "target": "section",
+  "label_column": "section_code",
+  "test_year": 2025,
+  "train_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "n_train": 316,
+  "n_test": 78,
+  "n_classes": 4,
+  "classes": [
+    "1",
+    "2A",
+    "2B",
+    "3"
+  ],
+  "macro_f1": 0.9577128102615359,
+  "accuracy": 0.9615384615384616,
+  "balanced_accuracy": 0.953125,
+  "vectorizer": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true,
+    "max_features": 50000
+  },
+  "classifier": {
+    "name": "LinearSVC",
+    "C": 1.0,
+    "class_weight": "balanced"
+  }
+}

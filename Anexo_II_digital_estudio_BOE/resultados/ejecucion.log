@@ -1,0 +1,12 @@
+2026-09-05 16:23:59,382 | INFO | Inicio del estudio BOE, versión 1.0.0.
+2026-09-05 16:23:59,382 | INFO | Directorio de salida: /content/resultados_boe
+2026-09-05 16:23:59,383 | INFO | Consultando sumarios en 5 años y 40 fechas ancla.
+2026-09-05 16:24:18,871 | INFO | Fechas válidas: 40; candidatos con reserva: 4048.
+2026-09-05 16:27:08,566 | INFO | Muestra final: n=400, años=5, fechas=40, secciones=5.
+2026-09-05 16:27:08,569 | INFO | Preparando tokenizador BETO (dccuchile/bert-base-spanish-wwm-cased).
+2026-09-05 16:27:09,047 | INFO | Preparando tokenizador RoBERTalex (PlanTL-GOB-ES/RoBERTalex).
+2026-09-05 16:27:09,421 | INFO | Preparando tokenizador MEL (IIC/MEL).
+2026-09-05 16:27:11,144 | INFO | Preparando tokenizador MrBERT-legal (BSC-LT/MrBERT-legal).
+2026-09-05 16:27:51,599 | INFO | Análisis de longitudes completado.
+2026-09-05 16:27:51,729 | INFO | Análisis de fragmentación completado sobre 125 términos.
+2026-09-05 16:27:57,774 | INFO | Baseline SVM: target=section, test=2025, n_train=316, n_test=78, macro-F1=0.9577.

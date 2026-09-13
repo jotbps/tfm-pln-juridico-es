@@ -1,0 +1,5 @@
+﻿model,window,n,n_fits,pct_fits,n_exceeds,pct_exceeds
+BETO,512,400,138,34.5,262,65.5
+RoBERTalex,512,400,147,36.75,253,63.25
+MEL,512,400,131,32.75,269,67.25
+MrBERT-legal,8192,400,354,88.5,46,11.5

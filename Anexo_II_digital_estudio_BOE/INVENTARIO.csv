@@ -1,0 +1,40 @@
+archivo,bytes,filas_datos_csv,procedencia,descripcion,sha256
+00_LEEME_ENTREGA.txt,6141,,"Documentacion, ruta o informe actualizado","Guía actual de contenido, consulta, verificación y límites.",2c166b9fd3ce0727bcee7f98c2d9ae80fb220573b2672b190343e31f9308a6a0
+LEEME.txt,515,,original conservado,Descripción histórica del paquete original.,4d4123551a4bbd2b902d9c5a19c7ef719cb10f09d3ffcc0911dd2fffb48dd2d8
+LEEME_analisis_complementario.txt,1342,,"Documentacion, ruta o informe actualizado",Instrucciones del analisis complementario con rutas normalizadas.,b718eb8b404102efd929d2e1e07609199d6600e7a0411e80bc6a89cb47821f07
+analisis_complementario/cobertura_ventanas.csv,197,4,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,c21b632cb375552aad75e4e307d016b2cc88cf8686168cbd463352bb14897c31
+analisis_complementario/comparativa_percentiles.csv,771,4,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,6478f3dd4fecc0d642ff9f11ae033b8ca3b289923371f8a796f23b7008987b8c
+analisis_complementario/distribucion_por_fecha.csv,502,40,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,8d8db378331a15d66c5c2aedcc261037555d5ada1e78f9df3ed9f05a98899587
+analisis_complementario/errores_seccion_III.json,253,,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,086405d8ba4a01f8cf73b7bf4a0a67ab88c70e397c3ea13b10a65df9706e5576
+analisis_complementario/manifiesto_analisis_complementario.json,734,,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,643c76816904ef0ad43e00732814861c9902712f6eb8ae70c8db9c462e742533
+analisis_complementario/sensibilidad_por_fecha.csv,34987,480,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,798e0510c4a6c0387acfe779c973715997fad2755c75750b35c8484afb6e0314
+analisis_complementario/sensibilidad_resumen.csv,940,12,Contenido original conservado; ruta normalizada,Salida original del análisis complementario; consultar mapa del TFM.,f6026c606e6740a81d06fbd47b6483397596cf8b43498c37f1789328c540d799
+codigo/analisis_complementario.py,5506,,original conservado,"Cálculos de cobertura, sensibilidad y errores a partir de resultados guardados.",0989186a279f5a7913a6af64da347b200cf508b92da2f45fb7b0cf2e0d898a75
+codigo/requirements.txt,259,,original conservado,Rangos de dependencias del programa original.,b1076267e5087e21f07a4a311f95c9ff4e0c90a25c72ad5fd89a58596d0eea46
+codigo/tfm_boe_experiment.py,47233,,original conservado,"Código del estudio original: muestreo, tokenización, fragmentación y SVM.",f62a951c792e0d6b3c34e65bd00e9d0b0f057e8c7279eb8115c80445d9c90a5b
+codigo/verificar_anexo.py,9194,,"Documentacion, ruta o informe actualizado",Verificador añadido; no descarga ni reentrena.,92d2ea2a2e7e10e1c60b9f654b1bd9f7fb19ebdb5051273ccdfe05ed55ca8e2e
+datos/terminos_juridicos_125.csv,5026,125,original conservado,Entrada original del estudio de fragmentación.,34f88365eed5dddabc3811097ed8147dd74c2da3483e2219823a611660d55308
+documentacion/CONTENIDO_Y_RELACION_TFM.md,4223,,"Documentacion, ruta o informe actualizado",Documentación de entrega añadida en esta revisión.,82218838641c80291e82d4720fb1181a8e21019e5a288d3012d757aa207eb567
+documentacion/DICCIONARIO_DATOS.md,9471,,"Documentacion, ruta o informe actualizado",Documentación de entrega añadida en esta revisión.,d45bff42c7ab092bd42bfb4c419d0a8e48535e1e02168bd8a3d382f1228e735a
+resultados/distribucion_muestra.csv,10587,163,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,65cb2a077cadc3bfb3952e82f565f23747f926681fbf24ffb8545b1ed285747c
+resultados/ejecucion.log,1045,,original conservado,Registro original conservado.,e773a05067d0f244754b2000f7f1e04a269677e825b746f80003f0b373c537ab
+resultados/exclusiones_extraccion.csv,94,1,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,edf88ea39765de06c37b610072307d344213d65c26946ee2c08acc9b06453969
+resultados/figura_ecdf_longitudes.png,214745,,original conservado,Figura del experimento; imagen original conservada.,aa8f6c944363c1a1b4e36d9bf6309b5dcab70bbc86a24fe7eb3d3a6199b503a7
+resultados/figura_ecdf_longitudes_sin_titulo.png,131665,,original conservado,Figura del experimento; imagen original conservada.,9e631396b8b8fbc4d78d91dc0048a6906585d950c8b5bebf503e9f7b479bfb24
+resultados/figura_fragmentacion_media.png,81411,,original conservado,Figura del experimento; imagen original conservada.,7bba65bfca9d46506347d4d0f180ed8172bdfa73755a61e675e498f97e0e0fd2
+resultados/fragmentacion_por_categoria.csv,865,16,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,8e1a177176a2c7712bb8679d1bfebb4c684e536de9e44d9fda8b15e395517c1d
+resultados/fragmentacion_terminos_detalle.csv,49940,500,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,9a1f2195dc40da28a39c445260412047d2c01606147e3829d6b8e7fcca4ae0ed
+resultados/fragmentacion_terminos_formato_ancho.csv,23609,125,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,a889e4be5f3c1292d41de8027f1413b5b1571f3f443df30e8c56e92db950f78c
+resultados/longitudes_por_documento.csv,58616,400,original conservado,Las 400 longitudes de cada tokenizador y metadatos descriptivos.,1d5a6f21bef9d02ae35e7d0eec2973aea1df8ec9043ee81240d566f8f7200ff7
+resultados/manifiesto_reproducibilidad.json,3553,,original conservado,Configuración y revisiones registradas en la ejecución original.,f3a1b3dbb85207e8105f47413b34383d90cbcb6cdd14c2054f24a82e16f826a5
+resultados/muestra_boe_metadatos.csv,256653,400,original conservado,"400 disposiciones identificadas; URLs y hashes, sin cuerpos de texto.",243cf9e6a8269c8d350eae54b4f566c30edbcb3bcd7dbf778b4f886b8e0ed456
+resultados/svm_matriz_confusion.csv,60,4,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,625e3b5ddc07d0249e0519617c72d8aaad158484311b3a31ed9426211cf94354
+resultados/svm_matriz_confusion.png,95890,,original conservado,Figura del experimento; imagen original conservada.,dd132ee7df65fe1427ebae3f2a446429c81761761130759592ba5fd2ca216b4a
+resultados/svm_metricas_por_clase.csv,344,4,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,b741af909ec2676b116a83429c20ff980ab71d845b3ca2bd7ded7200d692a3a5
+resultados/svm_resumen.json,603,,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,1f0c6958823f55df85dbc809a226d6f604ee318f3aa6628ac1b074ce019f9e83
+resultados/tabla_fragmentacion_resumen.csv,375,4,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,e02a4e6fab1fa28c357f898fa070040dd1a973d89a63efcbc0b4406617e3e194
+resultados/tabla_longitudes_resumen.csv,357,4,original conservado,Salida original del experimento; consultar mapa del TFM y diccionario.,39a3fe06930253cd3aa78f56f8e493ac0fd31adc32cbeb2a55eb4f23522375a2
+resultados/texto_para_integrar_en_TFM.md,5071,,original conservado,"Borrador histórico generado por el script, no redacción final.",81db6d7cb7663b985a9fcc79441679aad38d12127ac69c9f2636d99c606092bd
+verificacion/INFORME_VERIFICACION.md,2238,,"Documentacion, ruta o informe actualizado",Resultado o informe de verificación añadido.,ec6ca1b5baed7e00e01acc8754eeaf460baece3bd01febaf98ca3587911dd8e4
+verificacion/correspondencia_TFM_historica.json,4159,,"Documentacion, ruta o informe actualizado",Resultado o informe de verificación añadido.,88722b8d8b4501bbbd738ee58d68b4a7bf3612eb1b05b3e1de573e4b90ae9a36
+verificacion/resultado_verificacion.json,3729,,"Documentacion, ruta o informe actualizado",Resultado o informe de verificación añadido.,7151d1e9741d06b3203f85cbd7c0faf7b01329851fc429944c1b6a3366bdd68d

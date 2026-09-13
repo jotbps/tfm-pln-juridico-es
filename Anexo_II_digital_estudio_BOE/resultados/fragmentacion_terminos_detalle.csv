@@ -1,0 +1,501 @@
+﻿categoria,termino,tokenizer,orthographic_words,subtokens,excess_subtokens,subtokens_per_word,fragmented,token_pieces
+latinismo,ad hoc,BETO,2,2,0,1.0,False,ad | hoc
+latinismo,ad cautelam,BETO,2,3,1,1.5,True,ad | caute | ##lam
+latinismo,ad personam,BETO,2,3,1,1.5,True,ad | persona | ##m
+latinismo,a fortiori,BETO,2,4,2,2.0,True,a | fort | ##ior | ##i
+latinismo,a priori,BETO,2,3,1,1.5,True,a | prior | ##i
+latinismo,a posteriori,BETO,2,3,1,1.5,True,a | posterior | ##i
+latinismo,ex ante,BETO,2,2,0,1.0,False,ex | ante
+latinismo,ex post,BETO,2,2,0,1.0,False,ex | post
+latinismo,ex officio,BETO,2,3,1,1.5,True,ex | off | ##icio
+latinismo,in dubio pro reo,BETO,4,6,2,1.5,True,in | du | ##bio | pro | re | ##o
+latinismo,iura novit curia,BETO,3,6,3,2.0,True,i | ##ura | novi | ##t | curi | ##a
+latinismo,lex specialis derogat legi generali,BETO,5,10,5,2.0,True,le | ##x | spe | ##cial | ##is | deroga | ##t | legi | general | ##i
+latinismo,lex posterior derogat priori,BETO,4,7,3,1.75,True,le | ##x | posterior | deroga | ##t | prior | ##i
+latinismo,mutatis mutandis,BETO,2,6,4,3.0,True,mu | ##tat | ##is | mu | ##tan | ##dis
+latinismo,non bis in idem,BETO,4,5,1,1.25,True,non | bis | in | ide | ##m
+latinismo,per se,BETO,2,2,0,1.0,False,per | se
+latinismo,prima facie,BETO,2,3,1,1.5,True,prima | faci | ##e
+latinismo,ratio decidendi,BETO,2,3,1,1.5,True,ratio | deciden | ##di
+latinismo,obiter dictum,BETO,2,5,3,2.5,True,ob | ##ite | ##r | dic | ##tum
+latinismo,sui generis,BETO,2,4,2,2.0,True,su | ##i | gener | ##is
+latinismo,ultra vires,BETO,2,3,1,1.5,True,ultra | vir | ##es
+latinismo,inter partes,BETO,2,2,0,1.0,False,inter | partes
+latinismo,erga omnes,BETO,2,4,2,2.0,True,er | ##ga | om | ##nes
+latinismo,fumus boni iuris,BETO,3,6,3,2.0,True,fum | ##us | bon | ##i | i | ##uris
+latinismo,periculum in mora,BETO,3,5,2,1.6666666666666667,True,peri | ##cul | ##um | in | mora
+latinismo,pacta sunt servanda,BETO,3,6,3,2.0,True,pac | ##ta | sun | ##t | serv | ##anda
+latinismo,rebus sic stantibus,BETO,3,6,3,2.0,True,re | ##bus | sic | stan | ##ti | ##bus
+latinismo,de lege lata,BETO,3,4,1,1.3333333333333333,True,de | leg | ##e | lata
+latinismo,de lege ferenda,BETO,3,5,2,1.6666666666666667,True,de | leg | ##e | fer | ##enda
+latinismo,locus standi,BETO,2,4,2,2.0,True,locu | ##s | stan | ##di
+colocacion_juridica,interponer recurso,BETO,2,2,0,1.0,False,interponer | recurso
+colocacion_juridica,formular alegaciones,BETO,2,2,0,1.0,False,formular | alegaciones
+colocacion_juridica,dictar sentencia,BETO,2,2,0,1.0,False,dictar | sentencia
+colocacion_juridica,dictar resolución,BETO,2,2,0,1.0,False,dictar | resolución
+colocacion_juridica,emitir informe,BETO,2,2,0,1.0,False,emitir | informe
+colocacion_juridica,incoar expediente,BETO,2,3,1,1.5,True,inco | ##ar | expediente
+colocacion_juridica,tramitar expediente,BETO,2,3,1,1.5,True,trami | ##tar | expediente
+colocacion_juridica,resolver el procedimiento,BETO,3,3,0,1.0,False,resolver | el | procedimiento
+colocacion_juridica,practicar diligencias,BETO,2,3,1,1.5,True,practicar | diligencia | ##s
+colocacion_juridica,evacuar trámite,BETO,2,2,0,1.0,False,evacuar | trámite
+colocacion_juridica,conceder audiencia,BETO,2,2,0,1.0,False,conceder | audiencia
+colocacion_juridica,abrir período de prueba,BETO,4,4,0,1.0,False,abrir | período | de | prueba
+colocacion_juridica,admitir a trámite,BETO,3,3,0,1.0,False,admitir | a | trámite
+colocacion_juridica,inadmitir el recurso,BETO,3,5,2,1.6666666666666667,True,inad | ##mit | ##ir | el | recurso
+colocacion_juridica,estimar la demanda,BETO,3,3,0,1.0,False,estimar | la | demanda
+colocacion_juridica,desestimar la pretensión,BETO,3,5,2,1.6666666666666667,True,desesti | ##mar | la | preten | ##sión
+colocacion_juridica,estimar parcialmente,BETO,2,2,0,1.0,False,estimar | parcialmente
+colocacion_juridica,imponer las costas,BETO,3,3,0,1.0,False,imponer | las | costas
+colocacion_juridica,absolver al acusado,BETO,3,4,1,1.3333333333333333,True,abs | ##olver | al | acusado
+colocacion_juridica,condenar al demandado,BETO,3,4,1,1.3333333333333333,True,condenar | al | demanda | ##do
+colocacion_juridica,declarar la nulidad,BETO,3,4,1,1.3333333333333333,True,declarar | la | nu | ##lidad
+colocacion_juridica,acordar el archivo,BETO,3,3,0,1.0,False,acordar | el | archivo
+colocacion_juridica,notificar la resolución,BETO,3,3,0,1.0,False,notificar | la | resolución
+colocacion_juridica,publicar la disposición,BETO,3,3,0,1.0,False,publicar | la | disposición
+colocacion_juridica,interponer demanda,BETO,2,2,0,1.0,False,interponer | demanda
+colocacion_juridica,presentar escrito,BETO,2,2,0,1.0,False,presentar | escrito
+colocacion_juridica,aportar documentación,BETO,2,2,0,1.0,False,aportar | documentación
+colocacion_juridica,subsanar defectos,BETO,2,4,2,2.0,True,subs | ##ana | ##r | defectos
+colocacion_juridica,cumplir el requerimiento,BETO,3,3,0,1.0,False,cumplir | el | requerimiento
+colocacion_juridica,agotar la vía administrativa,BETO,4,5,1,1.25,True,agota | ##r | la | vía | administrativa
+colocacion_juridica,ejercer la potestad sancionadora,BETO,4,5,1,1.25,True,ejercer | la | potestad | sancion | ##adora
+colocacion_juridica,adoptar medidas cautelares,BETO,3,4,1,1.3333333333333333,True,adoptar | medidas | caute | ##lares
+colocacion_juridica,solicitar autorización,BETO,2,2,0,1.0,False,solicitar | autorización
+colocacion_juridica,otorgar la concesión,BETO,3,3,0,1.0,False,otorgar | la | concesión
+colocacion_juridica,revocar la autorización,BETO,3,4,1,1.3333333333333333,True,revo | ##car | la | autorización
+formula_ritual,de conformidad con lo dispuesto en,BETO,6,6,0,1.0,False,de | conformidad | con | lo | dispuesto | en
+formula_ritual,sin perjuicio de lo establecido en,BETO,6,6,0,1.0,False,sin | perjuicio | de | lo | establecido | en
+formula_ritual,en virtud de lo previsto en,BETO,6,6,0,1.0,False,en | virtud | de | lo | previsto | en
+formula_ritual,a los efectos de lo dispuesto en,BETO,7,7,0,1.0,False,a | los | efectos | de | lo | dispuesto | en
+formula_ritual,de acuerdo con lo establecido en,BETO,6,6,0,1.0,False,de | acuerdo | con | lo | establecido | en
+formula_ritual,con arreglo a lo dispuesto en,BETO,6,6,0,1.0,False,con | arreglo | a | lo | dispuesto | en
+formula_ritual,al amparo de lo previsto en,BETO,6,6,0,1.0,False,al | amparo | de | lo | previsto | en
+formula_ritual,en cumplimiento de lo establecido en,BETO,6,6,0,1.0,False,en | cumplimiento | de | lo | establecido | en
+formula_ritual,de conformidad con la normativa aplicable,BETO,6,6,0,1.0,False,de | conformidad | con | la | normativa | aplicable
+formula_ritual,en uso de las atribuciones conferidas,BETO,6,7,1,1.1666666666666667,True,en | uso | de | las | atribuciones | confer | ##idas
+formula_ritual,en el ejercicio de las competencias atribuidas,BETO,7,7,0,1.0,False,en | el | ejercicio | de | las | competencias | atribuidas
+formula_ritual,por todo lo expuesto,BETO,4,4,0,1.0,False,por | todo | lo | expuesto
+formula_ritual,en atención a lo expuesto,BETO,5,5,0,1.0,False,en | atención | a | lo | expuesto
+formula_ritual,visto el expediente,BETO,3,3,0,1.0,False,visto | el | expediente
+formula_ritual,vistos los preceptos citados,BETO,4,4,0,1.0,False,vistos | los | preceptos | citados
+formula_ritual,oídas las partes,BETO,3,4,1,1.3333333333333333,True,oí | ##das | las | partes
+formula_ritual,previo informe favorable,BETO,3,3,0,1.0,False,previo | informe | favorable
+formula_ritual,previa audiencia de los interesados,BETO,5,5,0,1.0,False,previa | audiencia | de | los | interesados
+formula_ritual,una vez cumplidos los trámites preceptivos,BETO,6,8,2,1.3333333333333333,True,una | vez | cumplido | ##s | los | trámites | precep | ##tivos
+formula_ritual,contra la presente resolución podrá interponerse,BETO,6,7,1,1.1666666666666667,True,contra | la | presente | resolución | podrá | interponer | ##se
+formula_ritual,la presente resolución pone fin a la vía administrativa,BETO,9,9,0,1.0,False,la | presente | resolución | pone | fin | a | la | vía | administrativa
+formula_ritual,notifíquese a las partes,BETO,4,6,2,1.5,True,noti | ##fí | ##quese | a | las | partes
+formula_ritual,publíquese en el Boletín Oficial del Estado,BETO,7,9,2,1.2857142857142858,True,pub | ##lí | ##quese | en | el | Boletín | Oficial | del | Estado
+formula_ritual,comuníquese a los interesados,BETO,4,6,2,1.5,True,comun | ##íqu | ##ese | a | los | interesados
+formula_ritual,y para que conste,BETO,4,4,0,1.0,False,y | para | que | conste
+formula_ritual,así lo acuerda y firma,BETO,5,5,0,1.0,False,así | lo | acuerda | y | firma
+formula_ritual,dado en Madrid,BETO,3,3,0,1.0,False,dado | en | Madrid
+formula_ritual,por delegación,BETO,2,2,0,1.0,False,por | delegación
+formula_ritual,en nombre del Rey,BETO,4,4,0,1.0,False,en | nombre | del | Rey
+formula_ritual,he resuelto,BETO,2,2,0,1.0,False,he | resuelto
+formula_ritual,se dispone,BETO,2,2,0,1.0,False,se | dispone
+formula_ritual,se hace saber,BETO,3,3,0,1.0,False,se | hace | saber
+formula_ritual,queda derogada,BETO,2,3,1,1.5,True,queda | deroga | ##da
+formula_ritual,entrará en vigor,BETO,3,3,0,1.0,False,entrará | en | vigor
+formula_ritual,lo que se comunica para su conocimiento y efectos,BETO,9,9,0,1.0,False,lo | que | se | comunica | para | su | conocimiento | y | efectos
+termino_tecnico_o_arcaismo,providencia,BETO,1,2,1,2.0,True,provi | ##dencia
+termino_tecnico_o_arcaismo,emplazamiento,BETO,1,1,0,1.0,False,emplazamiento
+termino_tecnico_o_arcaismo,recurrente,BETO,1,1,0,1.0,False,recurrente
+termino_tecnico_o_arcaismo,recurrido,BETO,1,2,1,2.0,True,recur | ##rido
+termino_tecnico_o_arcaismo,litispendencia,BETO,1,4,3,4.0,True,liti | ##s | ##pen | ##dencia
+termino_tecnico_o_arcaismo,preclusión,BETO,1,3,2,3.0,True,prec | ##lus | ##ión
+termino_tecnico_o_arcaismo,caducidad,BETO,1,2,1,2.0,True,cadu | ##cidad
+termino_tecnico_o_arcaismo,prescripción,BETO,1,1,0,1.0,False,prescripción
+termino_tecnico_o_arcaismo,legitimación activa,BETO,2,4,2,2.0,True,legi | ##tima | ##ción | activa
+termino_tecnico_o_arcaismo,legitimación pasiva,BETO,2,5,3,2.5,True,legi | ##tima | ##ción | pas | ##iva
+termino_tecnico_o_arcaismo,jurisdicción,BETO,1,1,0,1.0,False,jurisdicción
+termino_tecnico_o_arcaismo,competencia objetiva,BETO,2,2,0,1.0,False,competencia | objetiva
+termino_tecnico_o_arcaismo,competencia territorial,BETO,2,2,0,1.0,False,competencia | territorial
+termino_tecnico_o_arcaismo,cosa juzgada,BETO,2,3,1,1.5,True,cosa | juz | ##gada
+termino_tecnico_o_arcaismo,tutela judicial efectiva,BETO,3,3,0,1.0,False,tutela | judicial | efectiva
+termino_tecnico_o_arcaismo,silencio administrativo,BETO,2,2,0,1.0,False,silencio | administrativo
+termino_tecnico_o_arcaismo,desviación de poder,BETO,3,3,0,1.0,False,desviación | de | poder
+termino_tecnico_o_arcaismo,acto administrativo,BETO,2,2,0,1.0,False,acto | administrativo
+termino_tecnico_o_arcaismo,potestad reglamentaria,BETO,2,3,1,1.5,True,potestad | reglament | ##aria
+termino_tecnico_o_arcaismo,responsabilidad patrimonial,BETO,2,3,1,1.5,True,responsabilidad | patri | ##monial
+termino_tecnico_o_arcaismo,recurso de alzada,BETO,3,3,0,1.0,False,recurso | de | alzada
+termino_tecnico_o_arcaismo,recurso de reposición,BETO,3,3,0,1.0,False,recurso | de | reposición
+termino_tecnico_o_arcaismo,procedimiento sancionador,BETO,2,3,1,1.5,True,procedimiento | sancion | ##ador
+termino_tecnico_o_arcaismo,medida cautelar,BETO,2,3,1,1.5,True,medida | caute | ##lar
+termino_tecnico_o_arcaismo,interés legítimo,BETO,2,2,0,1.0,False,interés | legítimo
+latinismo,ad hoc,RoBERTalex,2,2,0,1.0,False,Ġad | Ġhoc
+latinismo,ad cautelam,RoBERTalex,2,4,2,2.0,True,Ġad | Ġcau | te | lam
+latinismo,ad personam,RoBERTalex,2,2,0,1.0,False,Ġad | Ġpersonam
+latinismo,a fortiori,RoBERTalex,2,4,2,2.0,True,Ġa | Ġfor | ti | ori
+latinismo,a priori,RoBERTalex,2,2,0,1.0,False,Ġa | Ġpriori
+latinismo,a posteriori,RoBERTalex,2,2,0,1.0,False,Ġa | Ġposteriori
+latinismo,ex ante,RoBERTalex,2,2,0,1.0,False,Ġex | Ġante
+latinismo,ex post,RoBERTalex,2,2,0,1.0,False,Ġex | Ġpost
+latinismo,ex officio,RoBERTalex,2,3,1,1.5,True,Ġex | Ġof | ficio
+latinismo,in dubio pro reo,RoBERTalex,4,4,0,1.0,False,Ġin | Ġdubio | Ġpro | Ġreo
+latinismo,iura novit curia,RoBERTalex,3,6,3,2.0,True,Ġi | ura | Ġnov | it | Ġcur | ia
+latinismo,lex specialis derogat legi generali,RoBERTalex,5,8,3,1.6,True,Ġlex | Ġspecial | is | Ġderoga | t | Ġlegi | Ġgeneral | i
+latinismo,lex posterior derogat priori,RoBERTalex,4,5,1,1.25,True,Ġlex | Ġposterior | Ġderoga | t | Ġpriori
+latinismo,mutatis mutandis,RoBERTalex,2,2,0,1.0,False,Ġmutatis | Ġmutandis
+latinismo,non bis in idem,RoBERTalex,4,5,1,1.25,True,Ġnon | Ġbis | Ġin | Ġide | m
+latinismo,per se,RoBERTalex,2,2,0,1.0,False,Ġper | Ġse
+latinismo,prima facie,RoBERTalex,2,3,1,1.5,True,Ġprima | Ġfa | cie
+latinismo,ratio decidendi,RoBERTalex,2,3,1,1.5,True,Ġratio | Ġdeciden | di
+latinismo,obiter dictum,RoBERTalex,2,5,3,2.5,True,Ġo | bi | ter | Ġdic | tum
+latinismo,sui generis,RoBERTalex,2,4,2,2.0,True,Ġsu | i | Ġgener | is
+latinismo,ultra vires,RoBERTalex,2,3,1,1.5,True,Ġultra | Ġvi | res
+latinismo,inter partes,RoBERTalex,2,2,0,1.0,False,Ġinter | Ġpartes
+latinismo,erga omnes,RoBERTalex,2,3,1,1.5,True,Ġer | ga | Ġomnes
+latinismo,fumus boni iuris,RoBERTalex,3,6,3,2.0,True,Ġfum | us | Ġbon | i | Ġi | uris
+latinismo,periculum in mora,RoBERTalex,3,5,2,1.6666666666666667,True,Ġper | icul | um | Ġin | Ġmora
+latinismo,pacta sunt servanda,RoBERTalex,3,6,3,2.0,True,Ġpacta | Ġs | unt | Ġser | van | da
+latinismo,rebus sic stantibus,RoBERTalex,3,6,3,2.0,True,Ġre | bus | Ġsic | Ġst | anti | bus
+latinismo,de lege lata,RoBERTalex,3,5,2,1.6666666666666667,True,Ġde | Ġleg | e | Ġla | ta
+latinismo,de lege ferenda,RoBERTalex,3,5,2,1.6666666666666667,True,Ġde | Ġleg | e | Ġfer | enda
+latinismo,locus standi,RoBERTalex,2,4,2,2.0,True,Ġlo | cus | Ġstan | di
+colocacion_juridica,interponer recurso,RoBERTalex,2,2,0,1.0,False,Ġinterponer | Ġrecurso
+colocacion_juridica,formular alegaciones,RoBERTalex,2,2,0,1.0,False,Ġformular | Ġalegaciones
+colocacion_juridica,dictar sentencia,RoBERTalex,2,2,0,1.0,False,Ġdictar | Ġsentencia
+colocacion_juridica,dictar resolución,RoBERTalex,2,2,0,1.0,False,Ġdictar | ĠresoluciÃ³n
+colocacion_juridica,emitir informe,RoBERTalex,2,2,0,1.0,False,Ġemitir | Ġinforme
+colocacion_juridica,incoar expediente,RoBERTalex,2,2,0,1.0,False,Ġincoar | Ġexpediente
+colocacion_juridica,tramitar expediente,RoBERTalex,2,2,0,1.0,False,Ġtramitar | Ġexpediente
+colocacion_juridica,resolver el procedimiento,RoBERTalex,3,3,0,1.0,False,Ġresolver | Ġel | Ġprocedimiento
+colocacion_juridica,practicar diligencias,RoBERTalex,2,2,0,1.0,False,Ġpracticar | Ġdiligencias
+colocacion_juridica,evacuar trámite,RoBERTalex,2,2,0,1.0,False,Ġevacuar | ĠtrÃ¡mite
+colocacion_juridica,conceder audiencia,RoBERTalex,2,2,0,1.0,False,Ġconceder | Ġaudiencia
+colocacion_juridica,abrir período de prueba,RoBERTalex,4,4,0,1.0,False,Ġabrir | ĠperÃŃodo | Ġde | Ġprueba
+colocacion_juridica,admitir a trámite,RoBERTalex,3,3,0,1.0,False,Ġadmitir | Ġa | ĠtrÃ¡mite
+colocacion_juridica,inadmitir el recurso,RoBERTalex,3,3,0,1.0,False,Ġinadmitir | Ġel | Ġrecurso
+colocacion_juridica,estimar la demanda,RoBERTalex,3,3,0,1.0,False,Ġestimar | Ġla | Ġdemanda
+colocacion_juridica,desestimar la pretensión,RoBERTalex,3,3,0,1.0,False,Ġdesestimar | Ġla | ĠpretensiÃ³n
+colocacion_juridica,estimar parcialmente,RoBERTalex,2,2,0,1.0,False,Ġestimar | Ġparcialmente
+colocacion_juridica,imponer las costas,RoBERTalex,3,3,0,1.0,False,Ġimponer | Ġlas | Ġcostas
+colocacion_juridica,absolver al acusado,RoBERTalex,3,4,1,1.3333333333333333,True,Ġabsol | ver | Ġal | Ġacusado
+colocacion_juridica,condenar al demandado,RoBERTalex,3,3,0,1.0,False,Ġcondenar | Ġal | Ġdemandado
+colocacion_juridica,declarar la nulidad,RoBERTalex,3,3,0,1.0,False,Ġdeclarar | Ġla | Ġnulidad
+colocacion_juridica,acordar el archivo,RoBERTalex,3,3,0,1.0,False,Ġacordar | Ġel | Ġarchivo
+colocacion_juridica,notificar la resolución,RoBERTalex,3,3,0,1.0,False,Ġnotificar | Ġla | ĠresoluciÃ³n
+colocacion_juridica,publicar la disposición,RoBERTalex,3,3,0,1.0,False,Ġpublicar | Ġla | ĠdisposiciÃ³n
+colocacion_juridica,interponer demanda,RoBERTalex,2,2,0,1.0,False,Ġinterponer | Ġdemanda
+colocacion_juridica,presentar escrito,RoBERTalex,2,2,0,1.0,False,Ġpresentar | Ġescrito
+colocacion_juridica,aportar documentación,RoBERTalex,2,2,0,1.0,False,Ġaportar | ĠdocumentaciÃ³n
+colocacion_juridica,subsanar defectos,RoBERTalex,2,2,0,1.0,False,Ġsubsanar | Ġdefectos
+colocacion_juridica,cumplir el requerimiento,RoBERTalex,3,3,0,1.0,False,Ġcumplir | Ġel | Ġrequerimiento
+colocacion_juridica,agotar la vía administrativa,RoBERTalex,4,4,0,1.0,False,Ġagotar | Ġla | ĠvÃŃa | Ġadministrativa
+colocacion_juridica,ejercer la potestad sancionadora,RoBERTalex,4,4,0,1.0,False,Ġejercer | Ġla | Ġpotestad | Ġsancionadora
+colocacion_juridica,adoptar medidas cautelares,RoBERTalex,3,3,0,1.0,False,Ġadoptar | Ġmedidas | Ġcautelares
+colocacion_juridica,solicitar autorización,RoBERTalex,2,2,0,1.0,False,Ġsolicitar | ĠautorizaciÃ³n
+colocacion_juridica,otorgar la concesión,RoBERTalex,3,3,0,1.0,False,Ġotorgar | Ġla | ĠconcesiÃ³n
+colocacion_juridica,revocar la autorización,RoBERTalex,3,3,0,1.0,False,Ġrevocar | Ġla | ĠautorizaciÃ³n
+formula_ritual,de conformidad con lo dispuesto en,RoBERTalex,6,6,0,1.0,False,Ġde | Ġconformidad | Ġcon | Ġlo | Ġdispuesto | Ġen
+formula_ritual,sin perjuicio de lo establecido en,RoBERTalex,6,6,0,1.0,False,Ġsin | Ġperjuicio | Ġde | Ġlo | Ġestablecido | Ġen
+formula_ritual,en virtud de lo previsto en,RoBERTalex,6,6,0,1.0,False,Ġen | Ġvirtud | Ġde | Ġlo | Ġprevisto | Ġen
+formula_ritual,a los efectos de lo dispuesto en,RoBERTalex,7,7,0,1.0,False,Ġa | Ġlos | Ġefectos | Ġde | Ġlo | Ġdispuesto | Ġen
+formula_ritual,de acuerdo con lo establecido en,RoBERTalex,6,6,0,1.0,False,Ġde | Ġacuerdo | Ġcon | Ġlo | Ġestablecido | Ġen
+formula_ritual,con arreglo a lo dispuesto en,RoBERTalex,6,6,0,1.0,False,Ġcon | Ġarreglo | Ġa | Ġlo | Ġdispuesto | Ġen
+formula_ritual,al amparo de lo previsto en,RoBERTalex,6,6,0,1.0,False,Ġal | Ġamparo | Ġde | Ġlo | Ġprevisto | Ġen
+formula_ritual,en cumplimiento de lo establecido en,RoBERTalex,6,6,0,1.0,False,Ġen | Ġcumplimiento | Ġde | Ġlo | Ġestablecido | Ġen
+formula_ritual,de conformidad con la normativa aplicable,RoBERTalex,6,6,0,1.0,False,Ġde | Ġconformidad | Ġcon | Ġla | Ġnormativa | Ġaplicable
+formula_ritual,en uso de las atribuciones conferidas,RoBERTalex,6,6,0,1.0,False,Ġen | Ġuso | Ġde | Ġlas | Ġatribuciones | Ġconferidas
+formula_ritual,en el ejercicio de las competencias atribuidas,RoBERTalex,7,7,0,1.0,False,Ġen | Ġel | Ġejercicio | Ġde | Ġlas | Ġcompetencias | Ġatribuidas
+formula_ritual,por todo lo expuesto,RoBERTalex,4,4,0,1.0,False,Ġpor | Ġtodo | Ġlo | Ġexpuesto
+formula_ritual,en atención a lo expuesto,RoBERTalex,5,5,0,1.0,False,Ġen | ĠatenciÃ³n | Ġa | Ġlo | Ġexpuesto
+formula_ritual,visto el expediente,RoBERTalex,3,3,0,1.0,False,Ġvisto | Ġel | Ġexpediente
+formula_ritual,vistos los preceptos citados,RoBERTalex,4,4,0,1.0,False,Ġvistos | Ġlos | Ġpreceptos | Ġcitados
+formula_ritual,oídas las partes,RoBERTalex,3,3,0,1.0,False,ĠoÃŃdas | Ġlas | Ġpartes
+formula_ritual,previo informe favorable,RoBERTalex,3,3,0,1.0,False,Ġprevio | Ġinforme | Ġfavorable
+formula_ritual,previa audiencia de los interesados,RoBERTalex,5,5,0,1.0,False,Ġprevia | Ġaudiencia | Ġde | Ġlos | Ġinteresados
+formula_ritual,una vez cumplidos los trámites preceptivos,RoBERTalex,6,6,0,1.0,False,Ġuna | Ġvez | Ġcumplidos | Ġlos | ĠtrÃ¡mites | Ġpreceptivos
+formula_ritual,contra la presente resolución podrá interponerse,RoBERTalex,6,6,0,1.0,False,Ġcontra | Ġla | Ġpresente | ĠresoluciÃ³n | ĠpodrÃ¡ | Ġinterponerse
+formula_ritual,la presente resolución pone fin a la vía administrativa,RoBERTalex,9,9,0,1.0,False,Ġla | Ġpresente | ĠresoluciÃ³n | Ġpone | Ġfin | Ġa | Ġla | ĠvÃŃa | Ġadministrativa
+formula_ritual,notifíquese a las partes,RoBERTalex,4,5,1,1.25,True,Ġnoti | fÃŃquese | Ġa | Ġlas | Ġpartes
+formula_ritual,publíquese en el Boletín Oficial del Estado,RoBERTalex,7,8,1,1.1428571428571428,True,Ġpubl | ÃŃquese | Ġen | Ġel | ĠBoletÃŃn | ĠOficial | Ġdel | ĠEstado
+formula_ritual,comuníquese a los interesados,RoBERTalex,4,5,1,1.25,True,Ġcomun | ÃŃquese | Ġa | Ġlos | Ġinteresados
+formula_ritual,y para que conste,RoBERTalex,4,4,0,1.0,False,Ġy | Ġpara | Ġque | Ġconste
+formula_ritual,así lo acuerda y firma,RoBERTalex,5,5,0,1.0,False,ĠasÃŃ | Ġlo | Ġacuerda | Ġy | Ġfirma
+formula_ritual,dado en Madrid,RoBERTalex,3,3,0,1.0,False,Ġdado | Ġen | ĠMadrid
+formula_ritual,por delegación,RoBERTalex,2,2,0,1.0,False,Ġpor | ĠdelegaciÃ³n
+formula_ritual,en nombre del Rey,RoBERTalex,4,4,0,1.0,False,Ġen | Ġnombre | Ġdel | ĠRey
+formula_ritual,he resuelto,RoBERTalex,2,2,0,1.0,False,Ġhe | Ġresuelto
+formula_ritual,se dispone,RoBERTalex,2,2,0,1.0,False,Ġse | Ġdispone
+formula_ritual,se hace saber,RoBERTalex,3,3,0,1.0,False,Ġse | Ġhace | Ġsaber
+formula_ritual,queda derogada,RoBERTalex,2,2,0,1.0,False,Ġqueda | Ġderogada
+formula_ritual,entrará en vigor,RoBERTalex,3,3,0,1.0,False,ĠentrarÃ¡ | Ġen | Ġvigor
+formula_ritual,lo que se comunica para su conocimiento y efectos,RoBERTalex,9,9,0,1.0,False,Ġlo | Ġque | Ġse | Ġcomunica | Ġpara | Ġsu | Ġconocimiento | Ġy | Ġefectos
+termino_tecnico_o_arcaismo,providencia,RoBERTalex,1,1,0,1.0,False,Ġprovidencia
+termino_tecnico_o_arcaismo,emplazamiento,RoBERTalex,1,1,0,1.0,False,Ġemplazamiento
+termino_tecnico_o_arcaismo,recurrente,RoBERTalex,1,1,0,1.0,False,Ġrecurrente
+termino_tecnico_o_arcaismo,recurrido,RoBERTalex,1,1,0,1.0,False,Ġrecurrido
+termino_tecnico_o_arcaismo,litispendencia,RoBERTalex,1,4,3,4.0,True,Ġliti | sp | en | dencia
+termino_tecnico_o_arcaismo,preclusión,RoBERTalex,1,3,2,3.0,True,Ġprec | l | usiÃ³n
+termino_tecnico_o_arcaismo,caducidad,RoBERTalex,1,1,0,1.0,False,Ġcaducidad
+termino_tecnico_o_arcaismo,prescripción,RoBERTalex,1,1,0,1.0,False,ĠprescripciÃ³n
+termino_tecnico_o_arcaismo,legitimación activa,RoBERTalex,2,2,0,1.0,False,ĠlegitimaciÃ³n | Ġactiva
+termino_tecnico_o_arcaismo,legitimación pasiva,RoBERTalex,2,2,0,1.0,False,ĠlegitimaciÃ³n | Ġpasiva
+termino_tecnico_o_arcaismo,jurisdicción,RoBERTalex,1,1,0,1.0,False,ĠjurisdicciÃ³n
+termino_tecnico_o_arcaismo,competencia objetiva,RoBERTalex,2,2,0,1.0,False,Ġcompetencia | Ġobjetiva
+termino_tecnico_o_arcaismo,competencia territorial,RoBERTalex,2,2,0,1.0,False,Ġcompetencia | Ġterritorial
+termino_tecnico_o_arcaismo,cosa juzgada,RoBERTalex,2,2,0,1.0,False,Ġcosa | Ġjuzgada
+termino_tecnico_o_arcaismo,tutela judicial efectiva,RoBERTalex,3,3,0,1.0,False,Ġtutela | Ġjudicial | Ġefectiva
+termino_tecnico_o_arcaismo,silencio administrativo,RoBERTalex,2,2,0,1.0,False,Ġsilencio | Ġadministrativo
+termino_tecnico_o_arcaismo,desviación de poder,RoBERTalex,3,3,0,1.0,False,ĠdesviaciÃ³n | Ġde | Ġpoder
+termino_tecnico_o_arcaismo,acto administrativo,RoBERTalex,2,2,0,1.0,False,Ġacto | Ġadministrativo
+termino_tecnico_o_arcaismo,potestad reglamentaria,RoBERTalex,2,2,0,1.0,False,Ġpotestad | Ġreglamentaria
+termino_tecnico_o_arcaismo,responsabilidad patrimonial,RoBERTalex,2,2,0,1.0,False,Ġresponsabilidad | Ġpatrimonial
+termino_tecnico_o_arcaismo,recurso de alzada,RoBERTalex,3,3,0,1.0,False,Ġrecurso | Ġde | Ġalzada
+termino_tecnico_o_arcaismo,recurso de reposición,RoBERTalex,3,3,0,1.0,False,Ġrecurso | Ġde | ĠreposiciÃ³n
+termino_tecnico_o_arcaismo,procedimiento sancionador,RoBERTalex,2,2,0,1.0,False,Ġprocedimiento | Ġsancionador
+termino_tecnico_o_arcaismo,medida cautelar,RoBERTalex,2,2,0,1.0,False,Ġmedida | Ġcautelar
+termino_tecnico_o_arcaismo,interés legítimo,RoBERTalex,2,2,0,1.0,False,ĠinterÃ©s | ĠlegÃŃtimo
+latinismo,ad hoc,MEL,2,2,0,1.0,False,▁ad | ▁hoc
+latinismo,ad cautelam,MEL,2,3,1,1.5,True,▁ad | ▁cautela | m
+latinismo,ad personam,MEL,2,3,1,1.5,True,▁ad | ▁persona | m
+latinismo,a fortiori,MEL,2,4,2,2.0,True,▁a | ▁for | ti | ori
+latinismo,a priori,MEL,2,2,0,1.0,False,▁a | ▁priori
+latinismo,a posteriori,MEL,2,3,1,1.5,True,▁a | ▁posterior | i
+latinismo,ex ante,MEL,2,2,0,1.0,False,▁ex | ▁ante
+latinismo,ex post,MEL,2,2,0,1.0,False,▁ex | ▁post
+latinismo,ex officio,MEL,2,2,0,1.0,False,▁ex | ▁officio
+latinismo,in dubio pro reo,MEL,4,6,2,1.5,True,▁in | ▁du | bio | ▁pro | ▁re | o
+latinismo,iura novit curia,MEL,3,6,3,2.0,True,▁i | ura | ▁novi | t | ▁cu | ria
+latinismo,lex specialis derogat legi generali,MEL,5,9,4,1.8,True,▁lex | ▁speciali | s | ▁de | roga | t | ▁legi | ▁general | i
+latinismo,lex posterior derogat priori,MEL,4,6,2,1.5,True,▁lex | ▁posterior | ▁de | roga | t | ▁priori
+latinismo,mutatis mutandis,MEL,2,4,2,2.0,True,▁mutat | is | ▁mu | tandis
+latinismo,non bis in idem,MEL,4,4,0,1.0,False,▁non | ▁bis | ▁in | ▁idem
+latinismo,per se,MEL,2,2,0,1.0,False,▁per | ▁se
+latinismo,prima facie,MEL,2,3,1,1.5,True,▁prima | ▁faci | e
+latinismo,ratio decidendi,MEL,2,3,1,1.5,True,▁ratio | ▁decide | ndi
+latinismo,obiter dictum,MEL,2,3,1,1.5,True,▁ob | iter | ▁dictum
+latinismo,sui generis,MEL,2,2,0,1.0,False,▁sui | ▁generis
+latinismo,ultra vires,MEL,2,3,1,1.5,True,▁ultra | ▁vir | es
+latinismo,inter partes,MEL,2,2,0,1.0,False,▁inter | ▁partes
+latinismo,erga omnes,MEL,2,3,1,1.5,True,▁er | ga | ▁omnes
+latinismo,fumus boni iuris,MEL,3,5,2,1.6666666666666667,True,▁fum | us | ▁bo | ni | ▁iuris
+latinismo,periculum in mora,MEL,3,5,2,1.6666666666666667,True,▁per | i | culum | ▁in | ▁mora
+latinismo,pacta sunt servanda,MEL,3,5,2,1.6666666666666667,True,▁pac | ta | ▁sunt | ▁ser | vanda
+latinismo,rebus sic stantibus,MEL,3,4,1,1.3333333333333333,True,▁rebus | ▁sic | ▁sta | ntibus
+latinismo,de lege lata,MEL,3,3,0,1.0,False,▁de | ▁lege | ▁lata
+latinismo,de lege ferenda,MEL,3,4,1,1.3333333333333333,True,▁de | ▁lege | ▁fer | enda
+latinismo,locus standi,MEL,2,4,2,2.0,True,▁loc | us | ▁stand | i
+colocacion_juridica,interponer recurso,MEL,2,4,2,2.0,True,▁inter | pon | er | ▁recurso
+colocacion_juridica,formular alegaciones,MEL,2,4,2,2.0,True,▁formular | ▁a | lega | ciones
+colocacion_juridica,dictar sentencia,MEL,2,3,1,1.5,True,▁dicta | r | ▁sentencia
+colocacion_juridica,dictar resolución,MEL,2,3,1,1.5,True,▁dicta | r | ▁resolución
+colocacion_juridica,emitir informe,MEL,2,2,0,1.0,False,▁emitir | ▁informe
+colocacion_juridica,incoar expediente,MEL,2,4,2,2.0,True,▁in | co | ar | ▁expediente
+colocacion_juridica,tramitar expediente,MEL,2,3,1,1.5,True,▁tramita | r | ▁expediente
+colocacion_juridica,resolver el procedimiento,MEL,3,3,0,1.0,False,▁resolver | ▁el | ▁procedimiento
+colocacion_juridica,practicar diligencias,MEL,2,4,2,2.0,True,▁practicar | ▁di | lige | ncias
+colocacion_juridica,evacuar trámite,MEL,2,3,1,1.5,True,▁evacua | r | ▁trámite
+colocacion_juridica,conceder audiencia,MEL,2,3,1,1.5,True,▁concede | r | ▁audiencia
+colocacion_juridica,abrir período de prueba,MEL,4,4,0,1.0,False,▁abrir | ▁período | ▁de | ▁prueba
+colocacion_juridica,admitir a trámite,MEL,3,4,1,1.3333333333333333,True,▁admit | ir | ▁a | ▁trámite
+colocacion_juridica,inadmitir el recurso,MEL,3,6,3,2.0,True,▁in | ad | mi | tir | ▁el | ▁recurso
+colocacion_juridica,estimar la demanda,MEL,3,4,1,1.3333333333333333,True,▁estima | r | ▁la | ▁demanda
+colocacion_juridica,desestimar la pretensión,MEL,3,7,4,2.3333333333333335,True,▁des | estima | r | ▁la | ▁pret | en | sión
+colocacion_juridica,estimar parcialmente,MEL,2,4,2,2.0,True,▁estima | r | ▁parcial | mente
+colocacion_juridica,imponer las costas,MEL,3,4,1,1.3333333333333333,True,▁impone | r | ▁las | ▁costas
+colocacion_juridica,absolver al acusado,MEL,3,4,1,1.3333333333333333,True,▁absolv | er | ▁al | ▁acusado
+colocacion_juridica,condenar al demandado,MEL,3,5,2,1.6666666666666667,True,▁condena | r | ▁al | ▁demanda | do
+colocacion_juridica,declarar la nulidad,MEL,3,4,1,1.3333333333333333,True,▁declarar | ▁la | ▁nul | idad
+colocacion_juridica,acordar el archivo,MEL,3,4,1,1.3333333333333333,True,▁acordar | ▁el | ▁archiv | o
+colocacion_juridica,notificar la resolución,MEL,3,4,1,1.3333333333333333,True,▁notifica | r | ▁la | ▁resolución
+colocacion_juridica,publicar la disposición,MEL,3,3,0,1.0,False,▁publicar | ▁la | ▁disposición
+colocacion_juridica,interponer demanda,MEL,2,4,2,2.0,True,▁inter | pon | er | ▁demanda
+colocacion_juridica,presentar escrito,MEL,2,2,0,1.0,False,▁presentar | ▁escrito
+colocacion_juridica,aportar documentación,MEL,2,2,0,1.0,False,▁aportar | ▁documentación
+colocacion_juridica,subsanar defectos,MEL,2,5,3,2.5,True,▁sub | san | ar | ▁defect | os
+colocacion_juridica,cumplir el requerimiento,MEL,3,4,1,1.3333333333333333,True,▁cumplir | ▁el | ▁requer | imiento
+colocacion_juridica,agotar la vía administrativa,MEL,4,5,1,1.25,True,▁ago | tar | ▁la | ▁vía | ▁administrativa
+colocacion_juridica,ejercer la potestad sancionadora,MEL,4,7,3,1.75,True,▁ejer | cer | ▁la | ▁potest | ad | ▁sanciona | dora
+colocacion_juridica,adoptar medidas cautelares,MEL,3,4,1,1.3333333333333333,True,▁adoptar | ▁medidas | ▁cautela | res
+colocacion_juridica,solicitar autorización,MEL,2,2,0,1.0,False,▁solicitar | ▁autorización
+colocacion_juridica,otorgar la concesión,MEL,3,4,1,1.3333333333333333,True,▁otorga | r | ▁la | ▁concesión
+colocacion_juridica,revocar la autorización,MEL,3,4,1,1.3333333333333333,True,▁revoca | r | ▁la | ▁autorización
+formula_ritual,de conformidad con lo dispuesto en,MEL,6,7,1,1.1666666666666667,True,▁de | ▁conform | idad | ▁con | ▁lo | ▁dispuesto | ▁en
+formula_ritual,sin perjuicio de lo establecido en,MEL,6,6,0,1.0,False,▁sin | ▁perjuicio | ▁de | ▁lo | ▁establecido | ▁en
+formula_ritual,en virtud de lo previsto en,MEL,6,7,1,1.1666666666666667,True,▁en | ▁virtu | d | ▁de | ▁lo | ▁previsto | ▁en
+formula_ritual,a los efectos de lo dispuesto en,MEL,7,7,0,1.0,False,▁a | ▁los | ▁efectos | ▁de | ▁lo | ▁dispuesto | ▁en
+formula_ritual,de acuerdo con lo establecido en,MEL,6,6,0,1.0,False,▁de | ▁acuerdo | ▁con | ▁lo | ▁establecido | ▁en
+formula_ritual,con arreglo a lo dispuesto en,MEL,6,7,1,1.1666666666666667,True,▁con | ▁arre | glo | ▁a | ▁lo | ▁dispuesto | ▁en
+formula_ritual,al amparo de lo previsto en,MEL,6,7,1,1.1666666666666667,True,▁al | ▁am | paro | ▁de | ▁lo | ▁previsto | ▁en
+formula_ritual,en cumplimiento de lo establecido en,MEL,6,6,0,1.0,False,▁en | ▁cumplimiento | ▁de | ▁lo | ▁establecido | ▁en
+formula_ritual,de conformidad con la normativa aplicable,MEL,6,7,1,1.1666666666666667,True,▁de | ▁conform | idad | ▁con | ▁la | ▁normativa | ▁aplicable
+formula_ritual,en uso de las atribuciones conferidas,MEL,6,8,2,1.3333333333333333,True,▁en | ▁uso | ▁de | ▁las | ▁atribu | ciones | ▁conferi | das
+formula_ritual,en el ejercicio de las competencias atribuidas,MEL,7,8,1,1.1428571428571428,True,▁en | ▁el | ▁ejercicio | ▁de | ▁las | ▁competencias | ▁atribui | das
+formula_ritual,por todo lo expuesto,MEL,4,5,1,1.25,True,▁por | ▁todo | ▁lo | ▁ex | puesto
+formula_ritual,en atención a lo expuesto,MEL,5,6,1,1.2,True,▁en | ▁atención | ▁a | ▁lo | ▁ex | puesto
+formula_ritual,visto el expediente,MEL,3,3,0,1.0,False,▁visto | ▁el | ▁expediente
+formula_ritual,vistos los preceptos citados,MEL,4,8,4,2.0,True,▁visto | s | ▁los | ▁pre | cept | os | ▁citado | s
+formula_ritual,oídas las partes,MEL,3,5,2,1.6666666666666667,True,▁o | ída | s | ▁las | ▁partes
+formula_ritual,previo informe favorable,MEL,3,3,0,1.0,False,▁previo | ▁informe | ▁favorable
+formula_ritual,previa audiencia de los interesados,MEL,5,5,0,1.0,False,▁previa | ▁audiencia | ▁de | ▁los | ▁interesados
+formula_ritual,una vez cumplidos los trámites preceptivos,MEL,6,10,4,1.6666666666666667,True,▁una | ▁vez | ▁cumpli | dos | ▁los | ▁trámite | s | ▁pre | cep | tivos
+formula_ritual,contra la presente resolución podrá interponerse,MEL,6,8,2,1.3333333333333333,True,▁contra | ▁la | ▁presente | ▁resolución | ▁podrá | ▁inter | pone | rse
+formula_ritual,la presente resolución pone fin a la vía administrativa,MEL,9,9,0,1.0,False,▁la | ▁presente | ▁resolución | ▁pone | ▁fin | ▁a | ▁la | ▁vía | ▁administrativa
+formula_ritual,notifíquese a las partes,MEL,4,8,4,2.0,True,▁no | tif | í | ques | e | ▁a | ▁las | ▁partes
+formula_ritual,publíquese en el Boletín Oficial del Estado,MEL,7,11,4,1.5714285714285714,True,▁pub | lí | ques | e | ▁en | ▁el | ▁Bole | tín | ▁Oficial | ▁del | ▁Estado
+formula_ritual,comuníquese a los interesados,MEL,4,7,3,1.75,True,▁comun | í | ques | e | ▁a | ▁los | ▁interesados
+formula_ritual,y para que conste,MEL,4,5,1,1.25,True,▁y | ▁para | ▁que | ▁con | ste
+formula_ritual,así lo acuerda y firma,MEL,5,7,2,1.4,True,▁así | ▁lo | ▁acu | er | da | ▁y | ▁firma
+formula_ritual,dado en Madrid,MEL,3,3,0,1.0,False,▁dado | ▁en | ▁Madrid
+formula_ritual,por delegación,MEL,2,3,1,1.5,True,▁por | ▁delega | ción
+formula_ritual,en nombre del Rey,MEL,4,4,0,1.0,False,▁en | ▁nombre | ▁del | ▁Rey
+formula_ritual,he resuelto,MEL,2,4,2,2.0,True,▁he | ▁res | uel | to
+formula_ritual,se dispone,MEL,2,2,0,1.0,False,▁se | ▁dispone
+formula_ritual,se hace saber,MEL,3,3,0,1.0,False,▁se | ▁hace | ▁saber
+formula_ritual,queda derogada,MEL,2,4,2,2.0,True,▁queda | ▁de | roga | da
+formula_ritual,entrará en vigor,MEL,3,4,1,1.3333333333333333,True,▁entrar | á | ▁en | ▁vigor
+formula_ritual,lo que se comunica para su conocimiento y efectos,MEL,9,9,0,1.0,False,▁lo | ▁que | ▁se | ▁comunica | ▁para | ▁su | ▁conocimiento | ▁y | ▁efectos
+termino_tecnico_o_arcaismo,providencia,MEL,1,2,1,2.0,True,▁provide | ncia
+termino_tecnico_o_arcaismo,emplazamiento,MEL,1,3,2,3.0,True,▁em | plaz | amiento
+termino_tecnico_o_arcaismo,recurrente,MEL,1,3,2,3.0,True,▁re | current | e
+termino_tecnico_o_arcaismo,recurrido,MEL,1,3,2,3.0,True,▁re | curr | ido
+termino_tecnico_o_arcaismo,litispendencia,MEL,1,4,3,4.0,True,▁li | tis | pende | ncia
+termino_tecnico_o_arcaismo,preclusión,MEL,1,3,2,3.0,True,▁pre | clusi | ón
+termino_tecnico_o_arcaismo,caducidad,MEL,1,3,2,3.0,True,▁ca | duc | idad
+termino_tecnico_o_arcaismo,prescripción,MEL,1,3,2,3.0,True,▁pre | scrip | ción
+termino_tecnico_o_arcaismo,legitimación activa,MEL,2,3,1,1.5,True,▁legitima | ción | ▁activa
+termino_tecnico_o_arcaismo,legitimación pasiva,MEL,2,4,2,2.0,True,▁legitima | ción | ▁pasi | va
+termino_tecnico_o_arcaismo,jurisdicción,MEL,1,3,2,3.0,True,▁juris | di | cción
+termino_tecnico_o_arcaismo,competencia objetiva,MEL,2,2,0,1.0,False,▁competencia | ▁objetiva
+termino_tecnico_o_arcaismo,competencia territorial,MEL,2,2,0,1.0,False,▁competencia | ▁territorial
+termino_tecnico_o_arcaismo,cosa juzgada,MEL,2,3,1,1.5,True,▁cosa | ▁juz | gada
+termino_tecnico_o_arcaismo,tutela judicial efectiva,MEL,3,3,0,1.0,False,▁tutela | ▁judicial | ▁efectiva
+termino_tecnico_o_arcaismo,silencio administrativo,MEL,2,2,0,1.0,False,▁silencio | ▁administrativo
+termino_tecnico_o_arcaismo,desviación de poder,MEL,3,5,2,1.6666666666666667,True,▁des | vi | ación | ▁de | ▁poder
+termino_tecnico_o_arcaismo,acto administrativo,MEL,2,2,0,1.0,False,▁acto | ▁administrativo
+termino_tecnico_o_arcaismo,potestad reglamentaria,MEL,2,4,2,2.0,True,▁potest | ad | ▁reglament | aria
+termino_tecnico_o_arcaismo,responsabilidad patrimonial,MEL,2,2,0,1.0,False,▁responsabilidad | ▁patrimonial
+termino_tecnico_o_arcaismo,recurso de alzada,MEL,3,4,1,1.3333333333333333,True,▁recurso | ▁de | ▁al | zada
+termino_tecnico_o_arcaismo,recurso de reposición,MEL,3,4,1,1.3333333333333333,True,▁recurso | ▁de | ▁re | posición
+termino_tecnico_o_arcaismo,procedimiento sancionador,MEL,2,3,1,1.5,True,▁procedimiento | ▁sanciona | dor
+termino_tecnico_o_arcaismo,medida cautelar,MEL,2,3,1,1.5,True,▁medida | ▁cautela | r
+termino_tecnico_o_arcaismo,interés legítimo,MEL,2,3,1,1.5,True,▁interés | ▁legítim | o
+latinismo,ad hoc,MrBERT-legal,2,2,0,1.0,False,▁ad | ▁hoc
+latinismo,ad cautelam,MrBERT-legal,2,3,1,1.5,True,▁ad | ▁cautel | am
+latinismo,ad personam,MrBERT-legal,2,3,1,1.5,True,▁ad | ▁person | am
+latinismo,a fortiori,MrBERT-legal,2,3,1,1.5,True,▁a | ▁forti | ori
+latinismo,a priori,MrBERT-legal,2,2,0,1.0,False,▁a | ▁priori
+latinismo,a posteriori,MrBERT-legal,2,2,0,1.0,False,▁a | ▁posteriori
+latinismo,ex ante,MrBERT-legal,2,2,0,1.0,False,▁ex | ▁ante
+latinismo,ex post,MrBERT-legal,2,2,0,1.0,False,▁ex | ▁post
+latinismo,ex officio,MrBERT-legal,2,3,1,1.5,True,▁ex | ▁off | icio
+latinismo,in dubio pro reo,MrBERT-legal,4,5,1,1.25,True,▁in | ▁dub | io | ▁pro | ▁reo
+latinismo,iura novit curia,MrBERT-legal,3,6,3,2.0,True,▁i | ura | ▁nov | it | ▁cu | ria
+latinismo,lex specialis derogat legi generali,MrBERT-legal,5,7,2,1.4,True,▁lex | ▁special | is | ▁der | ogat | ▁legi | ▁generali
+latinismo,lex posterior derogat priori,MrBERT-legal,4,5,1,1.25,True,▁lex | ▁posterior | ▁der | ogat | ▁priori
+latinismo,mutatis mutandis,MrBERT-legal,2,2,0,1.0,False,▁mutatis | ▁mutandis
+latinismo,non bis in idem,MrBERT-legal,4,4,0,1.0,False,▁non | ▁bis | ▁in | ▁idem
+latinismo,per se,MrBERT-legal,2,2,0,1.0,False,▁per | ▁se
+latinismo,prima facie,MrBERT-legal,2,3,1,1.5,True,▁prima | ▁f | acie
+latinismo,ratio decidendi,MrBERT-legal,2,3,1,1.5,True,▁ratio | ▁decid | endi
+latinismo,obiter dictum,MrBERT-legal,2,4,2,2.0,True,▁ob | iter | ▁dict | um
+latinismo,sui generis,MrBERT-legal,2,3,1,1.5,True,▁sui | ▁gener | is
+latinismo,ultra vires,MrBERT-legal,2,3,1,1.5,True,▁ultra | ▁vir | es
+latinismo,inter partes,MrBERT-legal,2,2,0,1.0,False,▁inter | ▁partes
+latinismo,erga omnes,MrBERT-legal,2,4,2,2.0,True,▁er | ga | ▁om | nes
+latinismo,fumus boni iuris,MrBERT-legal,3,6,3,2.0,True,▁f | umus | ▁b | oni | ▁i | uris
+latinismo,periculum in mora,MrBERT-legal,3,5,2,1.6666666666666667,True,▁per | icul | um | ▁in | ▁mora
+latinismo,pacta sunt servanda,MrBERT-legal,3,5,2,1.6666666666666667,True,▁pac | ta | ▁sunt | ▁serv | anda
+latinismo,rebus sic stantibus,MrBERT-legal,3,6,3,2.0,True,▁re | bus | ▁sic | ▁st | anti | bus
+latinismo,de lege lata,MrBERT-legal,3,3,0,1.0,False,▁de | ▁lege | ▁lata
+latinismo,de lege ferenda,MrBERT-legal,3,4,1,1.3333333333333333,True,▁de | ▁lege | ▁fer | enda
+latinismo,locus standi,MrBERT-legal,2,4,2,2.0,True,▁loc | us | ▁stand | i
+colocacion_juridica,interponer recurso,MrBERT-legal,2,4,2,2.0,True,▁inter | pon | er | ▁recurso
+colocacion_juridica,formular alegaciones,MrBERT-legal,2,3,1,1.5,True,▁formular | ▁aleg | aciones
+colocacion_juridica,dictar sentencia,MrBERT-legal,2,2,0,1.0,False,▁dictar | ▁sentencia
+colocacion_juridica,dictar resolución,MrBERT-legal,2,2,0,1.0,False,▁dictar | ▁resolución
+colocacion_juridica,emitir informe,MrBERT-legal,2,2,0,1.0,False,▁emitir | ▁informe
+colocacion_juridica,incoar expediente,MrBERT-legal,2,3,1,1.5,True,▁inco | ar | ▁expediente
+colocacion_juridica,tramitar expediente,MrBERT-legal,2,2,0,1.0,False,▁tramitar | ▁expediente
+colocacion_juridica,resolver el procedimiento,MrBERT-legal,3,3,0,1.0,False,▁resolver | ▁el | ▁procedimiento
+colocacion_juridica,practicar diligencias,MrBERT-legal,2,3,1,1.5,True,▁practicar | ▁diligen | cias
+colocacion_juridica,evacuar trámite,MrBERT-legal,2,3,1,1.5,True,▁evacu | ar | ▁trámite
+colocacion_juridica,conceder audiencia,MrBERT-legal,2,2,0,1.0,False,▁conceder | ▁audiencia
+colocacion_juridica,abrir período de prueba,MrBERT-legal,4,4,0,1.0,False,▁abrir | ▁período | ▁de | ▁prueba
+colocacion_juridica,admitir a trámite,MrBERT-legal,3,3,0,1.0,False,▁admitir | ▁a | ▁trámite
+colocacion_juridica,inadmitir el recurso,MrBERT-legal,3,5,2,1.6666666666666667,True,▁inad | mit | ir | ▁el | ▁recurso
+colocacion_juridica,estimar la demanda,MrBERT-legal,3,3,0,1.0,False,▁estimar | ▁la | ▁demanda
+colocacion_juridica,desestimar la pretensión,MrBERT-legal,3,5,2,1.6666666666666667,True,▁desestim | ar | ▁la | ▁pret | ensión
+colocacion_juridica,estimar parcialmente,MrBERT-legal,2,2,0,1.0,False,▁estimar | ▁parcialmente
+colocacion_juridica,imponer las costas,MrBERT-legal,3,4,1,1.3333333333333333,True,▁impon | er | ▁las | ▁costas
+colocacion_juridica,absolver al acusado,MrBERT-legal,3,4,1,1.3333333333333333,True,▁absol | ver | ▁al | ▁acusado
+colocacion_juridica,condenar al demandado,MrBERT-legal,3,5,2,1.6666666666666667,True,▁conden | ar | ▁al | ▁demand | ado
+colocacion_juridica,declarar la nulidad,MrBERT-legal,3,4,1,1.3333333333333333,True,▁declarar | ▁la | ▁nul | idad
+colocacion_juridica,acordar el archivo,MrBERT-legal,3,3,0,1.0,False,▁acordar | ▁el | ▁archivo
+colocacion_juridica,notificar la resolución,MrBERT-legal,3,3,0,1.0,False,▁notificar | ▁la | ▁resolución
+colocacion_juridica,publicar la disposición,MrBERT-legal,3,3,0,1.0,False,▁publicar | ▁la | ▁disposición
+colocacion_juridica,interponer demanda,MrBERT-legal,2,4,2,2.0,True,▁inter | pon | er | ▁demanda
+colocacion_juridica,presentar escrito,MrBERT-legal,2,2,0,1.0,False,▁presentar | ▁escrito
+colocacion_juridica,aportar documentación,MrBERT-legal,2,2,0,1.0,False,▁aportar | ▁documentación
+colocacion_juridica,subsanar defectos,MrBERT-legal,2,5,3,2.5,True,▁sub | san | ar | ▁def | ectos
+colocacion_juridica,cumplir el requerimiento,MrBERT-legal,3,3,0,1.0,False,▁cumplir | ▁el | ▁requerimiento
+colocacion_juridica,agotar la vía administrativa,MrBERT-legal,4,5,1,1.25,True,▁ag | otar | ▁la | ▁vía | ▁administrativa
+colocacion_juridica,ejercer la potestad sancionadora,MrBERT-legal,4,6,2,1.5,True,▁ejercer | ▁la | ▁pot | estad | ▁sancion | adora
+colocacion_juridica,adoptar medidas cautelares,MrBERT-legal,3,4,1,1.3333333333333333,True,▁adoptar | ▁medidas | ▁cautel | ares
+colocacion_juridica,solicitar autorización,MrBERT-legal,2,2,0,1.0,False,▁solicitar | ▁autorización
+colocacion_juridica,otorgar la concesión,MrBERT-legal,3,4,1,1.3333333333333333,True,▁otor | gar | ▁la | ▁concesión
+colocacion_juridica,revocar la autorización,MrBERT-legal,3,4,1,1.3333333333333333,True,▁rev | ocar | ▁la | ▁autorización
+formula_ritual,de conformidad con lo dispuesto en,MrBERT-legal,6,6,0,1.0,False,▁de | ▁conformidad | ▁con | ▁lo | ▁dispuesto | ▁en
+formula_ritual,sin perjuicio de lo establecido en,MrBERT-legal,6,6,0,1.0,False,▁sin | ▁perjuicio | ▁de | ▁lo | ▁establecido | ▁en
+formula_ritual,en virtud de lo previsto en,MrBERT-legal,6,6,0,1.0,False,▁en | ▁virtud | ▁de | ▁lo | ▁previsto | ▁en
+formula_ritual,a los efectos de lo dispuesto en,MrBERT-legal,7,7,0,1.0,False,▁a | ▁los | ▁efectos | ▁de | ▁lo | ▁dispuesto | ▁en
+formula_ritual,de acuerdo con lo establecido en,MrBERT-legal,6,6,0,1.0,False,▁de | ▁acuerdo | ▁con | ▁lo | ▁establecido | ▁en
+formula_ritual,con arreglo a lo dispuesto en,MrBERT-legal,6,6,0,1.0,False,▁con | ▁arreglo | ▁a | ▁lo | ▁dispuesto | ▁en
+formula_ritual,al amparo de lo previsto en,MrBERT-legal,6,6,0,1.0,False,▁al | ▁amparo | ▁de | ▁lo | ▁previsto | ▁en
+formula_ritual,en cumplimiento de lo establecido en,MrBERT-legal,6,6,0,1.0,False,▁en | ▁cumplimiento | ▁de | ▁lo | ▁establecido | ▁en
+formula_ritual,de conformidad con la normativa aplicable,MrBERT-legal,6,6,0,1.0,False,▁de | ▁conformidad | ▁con | ▁la | ▁normativa | ▁aplicable
+formula_ritual,en uso de las atribuciones conferidas,MrBERT-legal,6,8,2,1.3333333333333333,True,▁en | ▁uso | ▁de | ▁las | ▁atribu | ciones | ▁confer | idas
+formula_ritual,en el ejercicio de las competencias atribuidas,MrBERT-legal,7,8,1,1.1428571428571428,True,▁en | ▁el | ▁ejercicio | ▁de | ▁las | ▁competencias | ▁atribu | idas
+formula_ritual,por todo lo expuesto,MrBERT-legal,4,5,1,1.25,True,▁por | ▁todo | ▁lo | ▁ex | puesto
+formula_ritual,en atención a lo expuesto,MrBERT-legal,5,6,1,1.2,True,▁en | ▁atención | ▁a | ▁lo | ▁ex | puesto
+formula_ritual,visto el expediente,MrBERT-legal,3,3,0,1.0,False,▁visto | ▁el | ▁expediente
+formula_ritual,vistos los preceptos citados,MrBERT-legal,4,6,2,1.5,True,▁vistos | ▁los | ▁pre | cept | os | ▁citados
+formula_ritual,oídas las partes,MrBERT-legal,3,4,1,1.3333333333333333,True,▁o | ídas | ▁las | ▁partes
+formula_ritual,previo informe favorable,MrBERT-legal,3,3,0,1.0,False,▁previo | ▁informe | ▁favorable
+formula_ritual,previa audiencia de los interesados,MrBERT-legal,5,5,0,1.0,False,▁previa | ▁audiencia | ▁de | ▁los | ▁interesados
+formula_ritual,una vez cumplidos los trámites preceptivos,MrBERT-legal,6,8,2,1.3333333333333333,True,▁una | ▁vez | ▁cumpl | idos | ▁los | ▁trámites | ▁precep | tivos
+formula_ritual,contra la presente resolución podrá interponerse,MrBERT-legal,6,8,2,1.3333333333333333,True,▁contra | ▁la | ▁presente | ▁resolución | ▁podrá | ▁inter | pon | erse
+formula_ritual,la presente resolución pone fin a la vía administrativa,MrBERT-legal,9,9,0,1.0,False,▁la | ▁presente | ▁resolución | ▁pone | ▁fin | ▁a | ▁la | ▁vía | ▁administrativa
+formula_ritual,notifíquese a las partes,MrBERT-legal,4,7,3,1.75,True,▁notif | í | qu | ese | ▁a | ▁las | ▁partes
+formula_ritual,publíquese en el Boletín Oficial del Estado,MrBERT-legal,7,10,3,1.4285714285714286,True,▁pub | lí | qu | ese | ▁en | ▁el | ▁Boletín | ▁Oficial | ▁del | ▁Estado
+formula_ritual,comuníquese a los interesados,MrBERT-legal,4,7,3,1.75,True,▁comun | í | qu | ese | ▁a | ▁los | ▁interesados
+formula_ritual,y para que conste,MrBERT-legal,4,4,0,1.0,False,▁y | ▁para | ▁que | ▁conste
+formula_ritual,así lo acuerda y firma,MrBERT-legal,5,6,1,1.2,True,▁así | ▁lo | ▁ac | uerda | ▁y | ▁firma
+formula_ritual,dado en Madrid,MrBERT-legal,3,3,0,1.0,False,▁dado | ▁en | ▁Madrid
+formula_ritual,por delegación,MrBERT-legal,2,2,0,1.0,False,▁por | ▁delegación
+formula_ritual,en nombre del Rey,MrBERT-legal,4,4,0,1.0,False,▁en | ▁nombre | ▁del | ▁Rey
+formula_ritual,he resuelto,MrBERT-legal,2,3,1,1.5,True,▁he | ▁resuel | to
+formula_ritual,se dispone,MrBERT-legal,2,2,0,1.0,False,▁se | ▁dispone
+formula_ritual,se hace saber,MrBERT-legal,3,3,0,1.0,False,▁se | ▁hace | ▁saber
+formula_ritual,queda derogada,MrBERT-legal,2,3,1,1.5,True,▁queda | ▁derog | ada
+formula_ritual,entrará en vigor,MrBERT-legal,3,3,0,1.0,False,▁entrará | ▁en | ▁vigor
+formula_ritual,lo que se comunica para su conocimiento y efectos,MrBERT-legal,9,9,0,1.0,False,▁lo | ▁que | ▁se | ▁comunica | ▁para | ▁su | ▁conocimiento | ▁y | ▁efectos
+termino_tecnico_o_arcaismo,providencia,MrBERT-legal,1,2,1,2.0,True,▁prov | idencia
+termino_tecnico_o_arcaismo,emplazamiento,MrBERT-legal,1,3,2,3.0,True,▁empla | z | amiento
+termino_tecnico_o_arcaismo,recurrente,MrBERT-legal,1,2,1,2.0,True,▁recurr | ente
+termino_tecnico_o_arcaismo,recurrido,MrBERT-legal,1,2,1,2.0,True,▁rec | urrido
+termino_tecnico_o_arcaismo,litispendencia,MrBERT-legal,1,3,2,3.0,True,▁lit | isp | endencia
+termino_tecnico_o_arcaismo,preclusión,MrBERT-legal,1,3,2,3.0,True,▁pre | cl | usión
+termino_tecnico_o_arcaismo,caducidad,MrBERT-legal,1,2,1,2.0,True,▁caduc | idad
+termino_tecnico_o_arcaismo,prescripción,MrBERT-legal,1,2,1,2.0,True,▁presc | ripción
+termino_tecnico_o_arcaismo,legitimación activa,MrBERT-legal,2,3,1,1.5,True,▁legitim | ación | ▁activa
+termino_tecnico_o_arcaismo,legitimación pasiva,MrBERT-legal,2,3,1,1.5,True,▁legitim | ación | ▁pasiva
+termino_tecnico_o_arcaismo,jurisdicción,MrBERT-legal,1,2,1,2.0,True,▁jurisdic | ción
+termino_tecnico_o_arcaismo,competencia objetiva,MrBERT-legal,2,2,0,1.0,False,▁competencia | ▁objetiva
+termino_tecnico_o_arcaismo,competencia territorial,MrBERT-legal,2,2,0,1.0,False,▁competencia | ▁territorial
+termino_tecnico_o_arcaismo,cosa juzgada,MrBERT-legal,2,3,1,1.5,True,▁cosa | ▁juz | gada
+termino_tecnico_o_arcaismo,tutela judicial efectiva,MrBERT-legal,3,3,0,1.0,False,▁tutela | ▁judicial | ▁efectiva
+termino_tecnico_o_arcaismo,silencio administrativo,MrBERT-legal,2,2,0,1.0,False,▁silencio | ▁administrativo
+termino_tecnico_o_arcaismo,desviación de poder,MrBERT-legal,3,5,2,1.6666666666666667,True,▁des | via | ción | ▁de | ▁poder
+termino_tecnico_o_arcaismo,acto administrativo,MrBERT-legal,2,2,0,1.0,False,▁acto | ▁administrativo
+termino_tecnico_o_arcaismo,potestad reglamentaria,MrBERT-legal,2,4,2,2.0,True,▁pot | estad | ▁reglament | aria
+termino_tecnico_o_arcaismo,responsabilidad patrimonial,MrBERT-legal,2,2,0,1.0,False,▁responsabilidad | ▁patrimonial
+termino_tecnico_o_arcaismo,recurso de alzada,MrBERT-legal,3,4,1,1.3333333333333333,True,▁recurso | ▁de | ▁al | zada
+termino_tecnico_o_arcaismo,recurso de reposición,MrBERT-legal,3,3,0,1.0,False,▁recurso | ▁de | ▁reposición
+termino_tecnico_o_arcaismo,procedimiento sancionador,MrBERT-legal,2,2,0,1.0,False,▁procedimiento | ▁sancionador
+termino_tecnico_o_arcaismo,medida cautelar,MrBERT-legal,2,3,1,1.5,True,▁medida | ▁caut | elar
+termino_tecnico_o_arcaismo,interés legítimo,MrBERT-legal,2,2,0,1.0,False,▁interés | ▁legítimo

@@ -1,0 +1,5 @@
+﻿class_code,class_name,precision,recall,f1,support
+1,I. Disposiciones generales,0.9167,1.0000,0.9565,22
+2A,"II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",0.9565,1.0000,0.9778,22
+2B,II. Autoridades y personal. - B. Oposiciones y concursos,1.0000,1.0000,1.0000,18
+3,III. Otras disposiciones,1.0000,0.8125,0.8966,16

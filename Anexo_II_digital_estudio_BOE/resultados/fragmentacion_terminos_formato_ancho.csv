@@ -1,0 +1,126 @@
+﻿categoria,termino,orthographic_words,subtokens_BETO,pieces_BETO,subtokens_RoBERTalex,pieces_RoBERTalex,subtokens_MEL,pieces_MEL,subtokens_MrBERT-legal,pieces_MrBERT-legal
+latinismo,ad hoc,2,2,ad | hoc,2,Ġad | Ġhoc,2,▁ad | ▁hoc,2,▁ad | ▁hoc
+latinismo,ad cautelam,2,3,ad | caute | ##lam,4,Ġad | Ġcau | te | lam,3,▁ad | ▁cautela | m,3,▁ad | ▁cautel | am
+latinismo,ad personam,2,3,ad | persona | ##m,2,Ġad | Ġpersonam,3,▁ad | ▁persona | m,3,▁ad | ▁person | am
+latinismo,a fortiori,2,4,a | fort | ##ior | ##i,4,Ġa | Ġfor | ti | ori,4,▁a | ▁for | ti | ori,3,▁a | ▁forti | ori
+latinismo,a priori,2,3,a | prior | ##i,2,Ġa | Ġpriori,2,▁a | ▁priori,2,▁a | ▁priori
+latinismo,a posteriori,2,3,a | posterior | ##i,2,Ġa | Ġposteriori,3,▁a | ▁posterior | i,2,▁a | ▁posteriori
+latinismo,ex ante,2,2,ex | ante,2,Ġex | Ġante,2,▁ex | ▁ante,2,▁ex | ▁ante
+latinismo,ex post,2,2,ex | post,2,Ġex | Ġpost,2,▁ex | ▁post,2,▁ex | ▁post
+latinismo,ex officio,2,3,ex | off | ##icio,3,Ġex | Ġof | ficio,2,▁ex | ▁officio,3,▁ex | ▁off | icio
+latinismo,in dubio pro reo,4,6,in | du | ##bio | pro | re | ##o,4,Ġin | Ġdubio | Ġpro | Ġreo,6,▁in | ▁du | bio | ▁pro | ▁re | o,5,▁in | ▁dub | io | ▁pro | ▁reo
+latinismo,iura novit curia,3,6,i | ##ura | novi | ##t | curi | ##a,6,Ġi | ura | Ġnov | it | Ġcur | ia,6,▁i | ura | ▁novi | t | ▁cu | ria,6,▁i | ura | ▁nov | it | ▁cu | ria
+latinismo,lex specialis derogat legi generali,5,10,le | ##x | spe | ##cial | ##is | deroga | ##t | legi | general | ##i,8,Ġlex | Ġspecial | is | Ġderoga | t | Ġlegi | Ġgeneral | i,9,▁lex | ▁speciali | s | ▁de | roga | t | ▁legi | ▁general | i,7,▁lex | ▁special | is | ▁der | ogat | ▁legi | ▁generali
+latinismo,lex posterior derogat priori,4,7,le | ##x | posterior | deroga | ##t | prior | ##i,5,Ġlex | Ġposterior | Ġderoga | t | Ġpriori,6,▁lex | ▁posterior | ▁de | roga | t | ▁priori,5,▁lex | ▁posterior | ▁der | ogat | ▁priori
+latinismo,mutatis mutandis,2,6,mu | ##tat | ##is | mu | ##tan | ##dis,2,Ġmutatis | Ġmutandis,4,▁mutat | is | ▁mu | tandis,2,▁mutatis | ▁mutandis
+latinismo,non bis in idem,4,5,non | bis | in | ide | ##m,5,Ġnon | Ġbis | Ġin | Ġide | m,4,▁non | ▁bis | ▁in | ▁idem,4,▁non | ▁bis | ▁in | ▁idem
+latinismo,per se,2,2,per | se,2,Ġper | Ġse,2,▁per | ▁se,2,▁per | ▁se
+latinismo,prima facie,2,3,prima | faci | ##e,3,Ġprima | Ġfa | cie,3,▁prima | ▁faci | e,3,▁prima | ▁f | acie
+latinismo,ratio decidendi,2,3,ratio | deciden | ##di,3,Ġratio | Ġdeciden | di,3,▁ratio | ▁decide | ndi,3,▁ratio | ▁decid | endi
+latinismo,obiter dictum,2,5,ob | ##ite | ##r | dic | ##tum,5,Ġo | bi | ter | Ġdic | tum,3,▁ob | iter | ▁dictum,4,▁ob | iter | ▁dict | um
+latinismo,sui generis,2,4,su | ##i | gener | ##is,4,Ġsu | i | Ġgener | is,2,▁sui | ▁generis,3,▁sui | ▁gener | is
+latinismo,ultra vires,2,3,ultra | vir | ##es,3,Ġultra | Ġvi | res,3,▁ultra | ▁vir | es,3,▁ultra | ▁vir | es
+latinismo,inter partes,2,2,inter | partes,2,Ġinter | Ġpartes,2,▁inter | ▁partes,2,▁inter | ▁partes
+latinismo,erga omnes,2,4,er | ##ga | om | ##nes,3,Ġer | ga | Ġomnes,3,▁er | ga | ▁omnes,4,▁er | ga | ▁om | nes
+latinismo,fumus boni iuris,3,6,fum | ##us | bon | ##i | i | ##uris,6,Ġfum | us | Ġbon | i | Ġi | uris,5,▁fum | us | ▁bo | ni | ▁iuris,6,▁f | umus | ▁b | oni | ▁i | uris
+latinismo,periculum in mora,3,5,peri | ##cul | ##um | in | mora,5,Ġper | icul | um | Ġin | Ġmora,5,▁per | i | culum | ▁in | ▁mora,5,▁per | icul | um | ▁in | ▁mora
+latinismo,pacta sunt servanda,3,6,pac | ##ta | sun | ##t | serv | ##anda,6,Ġpacta | Ġs | unt | Ġser | van | da,5,▁pac | ta | ▁sunt | ▁ser | vanda,5,▁pac | ta | ▁sunt | ▁serv | anda
+latinismo,rebus sic stantibus,3,6,re | ##bus | sic | stan | ##ti | ##bus,6,Ġre | bus | Ġsic | Ġst | anti | bus,4,▁rebus | ▁sic | ▁sta | ntibus,6,▁re | bus | ▁sic | ▁st | anti | bus
+latinismo,de lege lata,3,4,de | leg | ##e | lata,5,Ġde | Ġleg | e | Ġla | ta,3,▁de | ▁lege | ▁lata,3,▁de | ▁lege | ▁lata
+latinismo,de lege ferenda,3,5,de | leg | ##e | fer | ##enda,5,Ġde | Ġleg | e | Ġfer | enda,4,▁de | ▁lege | ▁fer | enda,4,▁de | ▁lege | ▁fer | enda
+latinismo,locus standi,2,4,locu | ##s | stan | ##di,4,Ġlo | cus | Ġstan | di,4,▁loc | us | ▁stand | i,4,▁loc | us | ▁stand | i
+colocacion_juridica,interponer recurso,2,2,interponer | recurso,2,Ġinterponer | Ġrecurso,4,▁inter | pon | er | ▁recurso,4,▁inter | pon | er | ▁recurso
+colocacion_juridica,formular alegaciones,2,2,formular | alegaciones,2,Ġformular | Ġalegaciones,4,▁formular | ▁a | lega | ciones,3,▁formular | ▁aleg | aciones
+colocacion_juridica,dictar sentencia,2,2,dictar | sentencia,2,Ġdictar | Ġsentencia,3,▁dicta | r | ▁sentencia,2,▁dictar | ▁sentencia
+colocacion_juridica,dictar resolución,2,2,dictar | resolución,2,Ġdictar | ĠresoluciÃ³n,3,▁dicta | r | ▁resolución,2,▁dictar | ▁resolución
+colocacion_juridica,emitir informe,2,2,emitir | informe,2,Ġemitir | Ġinforme,2,▁emitir | ▁informe,2,▁emitir | ▁informe
+colocacion_juridica,incoar expediente,2,3,inco | ##ar | expediente,2,Ġincoar | Ġexpediente,4,▁in | co | ar | ▁expediente,3,▁inco | ar | ▁expediente
+colocacion_juridica,tramitar expediente,2,3,trami | ##tar | expediente,2,Ġtramitar | Ġexpediente,3,▁tramita | r | ▁expediente,2,▁tramitar | ▁expediente
+colocacion_juridica,resolver el procedimiento,3,3,resolver | el | procedimiento,3,Ġresolver | Ġel | Ġprocedimiento,3,▁resolver | ▁el | ▁procedimiento,3,▁resolver | ▁el | ▁procedimiento
+colocacion_juridica,practicar diligencias,2,3,practicar | diligencia | ##s,2,Ġpracticar | Ġdiligencias,4,▁practicar | ▁di | lige | ncias,3,▁practicar | ▁diligen | cias
+colocacion_juridica,evacuar trámite,2,2,evacuar | trámite,2,Ġevacuar | ĠtrÃ¡mite,3,▁evacua | r | ▁trámite,3,▁evacu | ar | ▁trámite
+colocacion_juridica,conceder audiencia,2,2,conceder | audiencia,2,Ġconceder | Ġaudiencia,3,▁concede | r | ▁audiencia,2,▁conceder | ▁audiencia
+colocacion_juridica,abrir período de prueba,4,4,abrir | período | de | prueba,4,Ġabrir | ĠperÃŃodo | Ġde | Ġprueba,4,▁abrir | ▁período | ▁de | ▁prueba,4,▁abrir | ▁período | ▁de | ▁prueba
+colocacion_juridica,admitir a trámite,3,3,admitir | a | trámite,3,Ġadmitir | Ġa | ĠtrÃ¡mite,4,▁admit | ir | ▁a | ▁trámite,3,▁admitir | ▁a | ▁trámite
+colocacion_juridica,inadmitir el recurso,3,5,inad | ##mit | ##ir | el | recurso,3,Ġinadmitir | Ġel | Ġrecurso,6,▁in | ad | mi | tir | ▁el | ▁recurso,5,▁inad | mit | ir | ▁el | ▁recurso
+colocacion_juridica,estimar la demanda,3,3,estimar | la | demanda,3,Ġestimar | Ġla | Ġdemanda,4,▁estima | r | ▁la | ▁demanda,3,▁estimar | ▁la | ▁demanda
+colocacion_juridica,desestimar la pretensión,3,5,desesti | ##mar | la | preten | ##sión,3,Ġdesestimar | Ġla | ĠpretensiÃ³n,7,▁des | estima | r | ▁la | ▁pret | en | sión,5,▁desestim | ar | ▁la | ▁pret | ensión
+colocacion_juridica,estimar parcialmente,2,2,estimar | parcialmente,2,Ġestimar | Ġparcialmente,4,▁estima | r | ▁parcial | mente,2,▁estimar | ▁parcialmente
+colocacion_juridica,imponer las costas,3,3,imponer | las | costas,3,Ġimponer | Ġlas | Ġcostas,4,▁impone | r | ▁las | ▁costas,4,▁impon | er | ▁las | ▁costas
+colocacion_juridica,absolver al acusado,3,4,abs | ##olver | al | acusado,4,Ġabsol | ver | Ġal | Ġacusado,4,▁absolv | er | ▁al | ▁acusado,4,▁absol | ver | ▁al | ▁acusado
+colocacion_juridica,condenar al demandado,3,4,condenar | al | demanda | ##do,3,Ġcondenar | Ġal | Ġdemandado,5,▁condena | r | ▁al | ▁demanda | do,5,▁conden | ar | ▁al | ▁demand | ado
+colocacion_juridica,declarar la nulidad,3,4,declarar | la | nu | ##lidad,3,Ġdeclarar | Ġla | Ġnulidad,4,▁declarar | ▁la | ▁nul | idad,4,▁declarar | ▁la | ▁nul | idad
+colocacion_juridica,acordar el archivo,3,3,acordar | el | archivo,3,Ġacordar | Ġel | Ġarchivo,4,▁acordar | ▁el | ▁archiv | o,3,▁acordar | ▁el | ▁archivo
+colocacion_juridica,notificar la resolución,3,3,notificar | la | resolución,3,Ġnotificar | Ġla | ĠresoluciÃ³n,4,▁notifica | r | ▁la | ▁resolución,3,▁notificar | ▁la | ▁resolución
+colocacion_juridica,publicar la disposición,3,3,publicar | la | disposición,3,Ġpublicar | Ġla | ĠdisposiciÃ³n,3,▁publicar | ▁la | ▁disposición,3,▁publicar | ▁la | ▁disposición
+colocacion_juridica,interponer demanda,2,2,interponer | demanda,2,Ġinterponer | Ġdemanda,4,▁inter | pon | er | ▁demanda,4,▁inter | pon | er | ▁demanda
+colocacion_juridica,presentar escrito,2,2,presentar | escrito,2,Ġpresentar | Ġescrito,2,▁presentar | ▁escrito,2,▁presentar | ▁escrito
+colocacion_juridica,aportar documentación,2,2,aportar | documentación,2,Ġaportar | ĠdocumentaciÃ³n,2,▁aportar | ▁documentación,2,▁aportar | ▁documentación
+colocacion_juridica,subsanar defectos,2,4,subs | ##ana | ##r | defectos,2,Ġsubsanar | Ġdefectos,5,▁sub | san | ar | ▁defect | os,5,▁sub | san | ar | ▁def | ectos
+colocacion_juridica,cumplir el requerimiento,3,3,cumplir | el | requerimiento,3,Ġcumplir | Ġel | Ġrequerimiento,4,▁cumplir | ▁el | ▁requer | imiento,3,▁cumplir | ▁el | ▁requerimiento
+colocacion_juridica,agotar la vía administrativa,4,5,agota | ##r | la | vía | administrativa,4,Ġagotar | Ġla | ĠvÃŃa | Ġadministrativa,5,▁ago | tar | ▁la | ▁vía | ▁administrativa,5,▁ag | otar | ▁la | ▁vía | ▁administrativa
+colocacion_juridica,ejercer la potestad sancionadora,4,5,ejercer | la | potestad | sancion | ##adora,4,Ġejercer | Ġla | Ġpotestad | Ġsancionadora,7,▁ejer | cer | ▁la | ▁potest | ad | ▁sanciona | dora,6,▁ejercer | ▁la | ▁pot | estad | ▁sancion | adora
+colocacion_juridica,adoptar medidas cautelares,3,4,adoptar | medidas | caute | ##lares,3,Ġadoptar | Ġmedidas | Ġcautelares,4,▁adoptar | ▁medidas | ▁cautela | res,4,▁adoptar | ▁medidas | ▁cautel | ares
+colocacion_juridica,solicitar autorización,2,2,solicitar | autorización,2,Ġsolicitar | ĠautorizaciÃ³n,2,▁solicitar | ▁autorización,2,▁solicitar | ▁autorización
+colocacion_juridica,otorgar la concesión,3,3,otorgar | la | concesión,3,Ġotorgar | Ġla | ĠconcesiÃ³n,4,▁otorga | r | ▁la | ▁concesión,4,▁otor | gar | ▁la | ▁concesión
+colocacion_juridica,revocar la autorización,3,4,revo | ##car | la | autorización,3,Ġrevocar | Ġla | ĠautorizaciÃ³n,4,▁revoca | r | ▁la | ▁autorización,4,▁rev | ocar | ▁la | ▁autorización
+formula_ritual,de conformidad con lo dispuesto en,6,6,de | conformidad | con | lo | dispuesto | en,6,Ġde | Ġconformidad | Ġcon | Ġlo | Ġdispuesto | Ġen,7,▁de | ▁conform | idad | ▁con | ▁lo | ▁dispuesto | ▁en,6,▁de | ▁conformidad | ▁con | ▁lo | ▁dispuesto | ▁en
+formula_ritual,sin perjuicio de lo establecido en,6,6,sin | perjuicio | de | lo | establecido | en,6,Ġsin | Ġperjuicio | Ġde | Ġlo | Ġestablecido | Ġen,6,▁sin | ▁perjuicio | ▁de | ▁lo | ▁establecido | ▁en,6,▁sin | ▁perjuicio | ▁de | ▁lo | ▁establecido | ▁en
+formula_ritual,en virtud de lo previsto en,6,6,en | virtud | de | lo | previsto | en,6,Ġen | Ġvirtud | Ġde | Ġlo | Ġprevisto | Ġen,7,▁en | ▁virtu | d | ▁de | ▁lo | ▁previsto | ▁en,6,▁en | ▁virtud | ▁de | ▁lo | ▁previsto | ▁en
+formula_ritual,a los efectos de lo dispuesto en,7,7,a | los | efectos | de | lo | dispuesto | en,7,Ġa | Ġlos | Ġefectos | Ġde | Ġlo | Ġdispuesto | Ġen,7,▁a | ▁los | ▁efectos | ▁de | ▁lo | ▁dispuesto | ▁en,7,▁a | ▁los | ▁efectos | ▁de | ▁lo | ▁dispuesto | ▁en
+formula_ritual,de acuerdo con lo establecido en,6,6,de | acuerdo | con | lo | establecido | en,6,Ġde | Ġacuerdo | Ġcon | Ġlo | Ġestablecido | Ġen,6,▁de | ▁acuerdo | ▁con | ▁lo | ▁establecido | ▁en,6,▁de | ▁acuerdo | ▁con | ▁lo | ▁establecido | ▁en
+formula_ritual,con arreglo a lo dispuesto en,6,6,con | arreglo | a | lo | dispuesto | en,6,Ġcon | Ġarreglo | Ġa | Ġlo | Ġdispuesto | Ġen,7,▁con | ▁arre | glo | ▁a | ▁lo | ▁dispuesto | ▁en,6,▁con | ▁arreglo | ▁a | ▁lo | ▁dispuesto | ▁en
+formula_ritual,al amparo de lo previsto en,6,6,al | amparo | de | lo | previsto | en,6,Ġal | Ġamparo | Ġde | Ġlo | Ġprevisto | Ġen,7,▁al | ▁am | paro | ▁de | ▁lo | ▁previsto | ▁en,6,▁al | ▁amparo | ▁de | ▁lo | ▁previsto | ▁en
+formula_ritual,en cumplimiento de lo establecido en,6,6,en | cumplimiento | de | lo | establecido | en,6,Ġen | Ġcumplimiento | Ġde | Ġlo | Ġestablecido | Ġen,6,▁en | ▁cumplimiento | ▁de | ▁lo | ▁establecido | ▁en,6,▁en | ▁cumplimiento | ▁de | ▁lo | ▁establecido | ▁en
+formula_ritual,de conformidad con la normativa aplicable,6,6,de | conformidad | con | la | normativa | aplicable,6,Ġde | Ġconformidad | Ġcon | Ġla | Ġnormativa | Ġaplicable,7,▁de | ▁conform | idad | ▁con | ▁la | ▁normativa | ▁aplicable,6,▁de | ▁conformidad | ▁con | ▁la | ▁normativa | ▁aplicable
+formula_ritual,en uso de las atribuciones conferidas,6,7,en | uso | de | las | atribuciones | confer | ##idas,6,Ġen | Ġuso | Ġde | Ġlas | Ġatribuciones | Ġconferidas,8,▁en | ▁uso | ▁de | ▁las | ▁atribu | ciones | ▁conferi | das,8,▁en | ▁uso | ▁de | ▁las | ▁atribu | ciones | ▁confer | idas
+formula_ritual,en el ejercicio de las competencias atribuidas,7,7,en | el | ejercicio | de | las | competencias | atribuidas,7,Ġen | Ġel | Ġejercicio | Ġde | Ġlas | Ġcompetencias | Ġatribuidas,8,▁en | ▁el | ▁ejercicio | ▁de | ▁las | ▁competencias | ▁atribui | das,8,▁en | ▁el | ▁ejercicio | ▁de | ▁las | ▁competencias | ▁atribu | idas
+formula_ritual,por todo lo expuesto,4,4,por | todo | lo | expuesto,4,Ġpor | Ġtodo | Ġlo | Ġexpuesto,5,▁por | ▁todo | ▁lo | ▁ex | puesto,5,▁por | ▁todo | ▁lo | ▁ex | puesto
+formula_ritual,en atención a lo expuesto,5,5,en | atención | a | lo | expuesto,5,Ġen | ĠatenciÃ³n | Ġa | Ġlo | Ġexpuesto,6,▁en | ▁atención | ▁a | ▁lo | ▁ex | puesto,6,▁en | ▁atención | ▁a | ▁lo | ▁ex | puesto
+formula_ritual,visto el expediente,3,3,visto | el | expediente,3,Ġvisto | Ġel | Ġexpediente,3,▁visto | ▁el | ▁expediente,3,▁visto | ▁el | ▁expediente
+formula_ritual,vistos los preceptos citados,4,4,vistos | los | preceptos | citados,4,Ġvistos | Ġlos | Ġpreceptos | Ġcitados,8,▁visto | s | ▁los | ▁pre | cept | os | ▁citado | s,6,▁vistos | ▁los | ▁pre | cept | os | ▁citados
+formula_ritual,oídas las partes,3,4,oí | ##das | las | partes,3,ĠoÃŃdas | Ġlas | Ġpartes,5,▁o | ída | s | ▁las | ▁partes,4,▁o | ídas | ▁las | ▁partes
+formula_ritual,previo informe favorable,3,3,previo | informe | favorable,3,Ġprevio | Ġinforme | Ġfavorable,3,▁previo | ▁informe | ▁favorable,3,▁previo | ▁informe | ▁favorable
+formula_ritual,previa audiencia de los interesados,5,5,previa | audiencia | de | los | interesados,5,Ġprevia | Ġaudiencia | Ġde | Ġlos | Ġinteresados,5,▁previa | ▁audiencia | ▁de | ▁los | ▁interesados,5,▁previa | ▁audiencia | ▁de | ▁los | ▁interesados
+formula_ritual,una vez cumplidos los trámites preceptivos,6,8,una | vez | cumplido | ##s | los | trámites | precep | ##tivos,6,Ġuna | Ġvez | Ġcumplidos | Ġlos | ĠtrÃ¡mites | Ġpreceptivos,10,▁una | ▁vez | ▁cumpli | dos | ▁los | ▁trámite | s | ▁pre | cep | tivos,8,▁una | ▁vez | ▁cumpl | idos | ▁los | ▁trámites | ▁precep | tivos
+formula_ritual,contra la presente resolución podrá interponerse,6,7,contra | la | presente | resolución | podrá | interponer | ##se,6,Ġcontra | Ġla | Ġpresente | ĠresoluciÃ³n | ĠpodrÃ¡ | Ġinterponerse,8,▁contra | ▁la | ▁presente | ▁resolución | ▁podrá | ▁inter | pone | rse,8,▁contra | ▁la | ▁presente | ▁resolución | ▁podrá | ▁inter | pon | erse
+formula_ritual,la presente resolución pone fin a la vía administrativa,9,9,la | presente | resolución | pone | fin | a | la | vía | administrativa,9,Ġla | Ġpresente | ĠresoluciÃ³n | Ġpone | Ġfin | Ġa | Ġla | ĠvÃŃa | Ġadministrativa,9,▁la | ▁presente | ▁resolución | ▁pone | ▁fin | ▁a | ▁la | ▁vía | ▁administrativa,9,▁la | ▁presente | ▁resolución | ▁pone | ▁fin | ▁a | ▁la | ▁vía | ▁administrativa
+formula_ritual,notifíquese a las partes,4,6,noti | ##fí | ##quese | a | las | partes,5,Ġnoti | fÃŃquese | Ġa | Ġlas | Ġpartes,8,▁no | tif | í | ques | e | ▁a | ▁las | ▁partes,7,▁notif | í | qu | ese | ▁a | ▁las | ▁partes
+formula_ritual,publíquese en el Boletín Oficial del Estado,7,9,pub | ##lí | ##quese | en | el | Boletín | Oficial | del | Estado,8,Ġpubl | ÃŃquese | Ġen | Ġel | ĠBoletÃŃn | ĠOficial | Ġdel | ĠEstado,11,▁pub | lí | ques | e | ▁en | ▁el | ▁Bole | tín | ▁Oficial | ▁del | ▁Estado,10,▁pub | lí | qu | ese | ▁en | ▁el | ▁Boletín | ▁Oficial | ▁del | ▁Estado
+formula_ritual,comuníquese a los interesados,4,6,comun | ##íqu | ##ese | a | los | interesados,5,Ġcomun | ÃŃquese | Ġa | Ġlos | Ġinteresados,7,▁comun | í | ques | e | ▁a | ▁los | ▁interesados,7,▁comun | í | qu | ese | ▁a | ▁los | ▁interesados
+formula_ritual,y para que conste,4,4,y | para | que | conste,4,Ġy | Ġpara | Ġque | Ġconste,5,▁y | ▁para | ▁que | ▁con | ste,4,▁y | ▁para | ▁que | ▁conste
+formula_ritual,así lo acuerda y firma,5,5,así | lo | acuerda | y | firma,5,ĠasÃŃ | Ġlo | Ġacuerda | Ġy | Ġfirma,7,▁así | ▁lo | ▁acu | er | da | ▁y | ▁firma,6,▁así | ▁lo | ▁ac | uerda | ▁y | ▁firma
+formula_ritual,dado en Madrid,3,3,dado | en | Madrid,3,Ġdado | Ġen | ĠMadrid,3,▁dado | ▁en | ▁Madrid,3,▁dado | ▁en | ▁Madrid
+formula_ritual,por delegación,2,2,por | delegación,2,Ġpor | ĠdelegaciÃ³n,3,▁por | ▁delega | ción,2,▁por | ▁delegación
+formula_ritual,en nombre del Rey,4,4,en | nombre | del | Rey,4,Ġen | Ġnombre | Ġdel | ĠRey,4,▁en | ▁nombre | ▁del | ▁Rey,4,▁en | ▁nombre | ▁del | ▁Rey
+formula_ritual,he resuelto,2,2,he | resuelto,2,Ġhe | Ġresuelto,4,▁he | ▁res | uel | to,3,▁he | ▁resuel | to
+formula_ritual,se dispone,2,2,se | dispone,2,Ġse | Ġdispone,2,▁se | ▁dispone,2,▁se | ▁dispone
+formula_ritual,se hace saber,3,3,se | hace | saber,3,Ġse | Ġhace | Ġsaber,3,▁se | ▁hace | ▁saber,3,▁se | ▁hace | ▁saber
+formula_ritual,queda derogada,2,3,queda | deroga | ##da,2,Ġqueda | Ġderogada,4,▁queda | ▁de | roga | da,3,▁queda | ▁derog | ada
+formula_ritual,entrará en vigor,3,3,entrará | en | vigor,3,ĠentrarÃ¡ | Ġen | Ġvigor,4,▁entrar | á | ▁en | ▁vigor,3,▁entrará | ▁en | ▁vigor
+formula_ritual,lo que se comunica para su conocimiento y efectos,9,9,lo | que | se | comunica | para | su | conocimiento | y | efectos,9,Ġlo | Ġque | Ġse | Ġcomunica | Ġpara | Ġsu | Ġconocimiento | Ġy | Ġefectos,9,▁lo | ▁que | ▁se | ▁comunica | ▁para | ▁su | ▁conocimiento | ▁y | ▁efectos,9,▁lo | ▁que | ▁se | ▁comunica | ▁para | ▁su | ▁conocimiento | ▁y | ▁efectos
+termino_tecnico_o_arcaismo,providencia,1,2,provi | ##dencia,1,Ġprovidencia,2,▁provide | ncia,2,▁prov | idencia
+termino_tecnico_o_arcaismo,emplazamiento,1,1,emplazamiento,1,Ġemplazamiento,3,▁em | plaz | amiento,3,▁empla | z | amiento
+termino_tecnico_o_arcaismo,recurrente,1,1,recurrente,1,Ġrecurrente,3,▁re | current | e,2,▁recurr | ente
+termino_tecnico_o_arcaismo,recurrido,1,2,recur | ##rido,1,Ġrecurrido,3,▁re | curr | ido,2,▁rec | urrido
+termino_tecnico_o_arcaismo,litispendencia,1,4,liti | ##s | ##pen | ##dencia,4,Ġliti | sp | en | dencia,4,▁li | tis | pende | ncia,3,▁lit | isp | endencia
+termino_tecnico_o_arcaismo,preclusión,1,3,prec | ##lus | ##ión,3,Ġprec | l | usiÃ³n,3,▁pre | clusi | ón,3,▁pre | cl | usión
+termino_tecnico_o_arcaismo,caducidad,1,2,cadu | ##cidad,1,Ġcaducidad,3,▁ca | duc | idad,2,▁caduc | idad
+termino_tecnico_o_arcaismo,prescripción,1,1,prescripción,1,ĠprescripciÃ³n,3,▁pre | scrip | ción,2,▁presc | ripción
+termino_tecnico_o_arcaismo,legitimación activa,2,4,legi | ##tima | ##ción | activa,2,ĠlegitimaciÃ³n | Ġactiva,3,▁legitima | ción | ▁activa,3,▁legitim | ación | ▁activa
+termino_tecnico_o_arcaismo,legitimación pasiva,2,5,legi | ##tima | ##ción | pas | ##iva,2,ĠlegitimaciÃ³n | Ġpasiva,4,▁legitima | ción | ▁pasi | va,3,▁legitim | ación | ▁pasiva
+termino_tecnico_o_arcaismo,jurisdicción,1,1,jurisdicción,1,ĠjurisdicciÃ³n,3,▁juris | di | cción,2,▁jurisdic | ción
+termino_tecnico_o_arcaismo,competencia objetiva,2,2,competencia | objetiva,2,Ġcompetencia | Ġobjetiva,2,▁competencia | ▁objetiva,2,▁competencia | ▁objetiva
+termino_tecnico_o_arcaismo,competencia territorial,2,2,competencia | territorial,2,Ġcompetencia | Ġterritorial,2,▁competencia | ▁territorial,2,▁competencia | ▁territorial
+termino_tecnico_o_arcaismo,cosa juzgada,2,3,cosa | juz | ##gada,2,Ġcosa | Ġjuzgada,3,▁cosa | ▁juz | gada,3,▁cosa | ▁juz | gada
+termino_tecnico_o_arcaismo,tutela judicial efectiva,3,3,tutela | judicial | efectiva,3,Ġtutela | Ġjudicial | Ġefectiva,3,▁tutela | ▁judicial | ▁efectiva,3,▁tutela | ▁judicial | ▁efectiva
+termino_tecnico_o_arcaismo,silencio administrativo,2,2,silencio | administrativo,2,Ġsilencio | Ġadministrativo,2,▁silencio | ▁administrativo,2,▁silencio | ▁administrativo
+termino_tecnico_o_arcaismo,desviación de poder,3,3,desviación | de | poder,3,ĠdesviaciÃ³n | Ġde | Ġpoder,5,▁des | vi | ación | ▁de | ▁poder,5,▁des | via | ción | ▁de | ▁poder
+termino_tecnico_o_arcaismo,acto administrativo,2,2,acto | administrativo,2,Ġacto | Ġadministrativo,2,▁acto | ▁administrativo,2,▁acto | ▁administrativo
+termino_tecnico_o_arcaismo,potestad reglamentaria,2,3,potestad | reglament | ##aria,2,Ġpotestad | Ġreglamentaria,4,▁potest | ad | ▁reglament | aria,4,▁pot | estad | ▁reglament | aria
+termino_tecnico_o_arcaismo,responsabilidad patrimonial,2,3,responsabilidad | patri | ##monial,2,Ġresponsabilidad | Ġpatrimonial,2,▁responsabilidad | ▁patrimonial,2,▁responsabilidad | ▁patrimonial
+termino_tecnico_o_arcaismo,recurso de alzada,3,3,recurso | de | alzada,3,Ġrecurso | Ġde | Ġalzada,4,▁recurso | ▁de | ▁al | zada,4,▁recurso | ▁de | ▁al | zada
+termino_tecnico_o_arcaismo,recurso de reposición,3,3,recurso | de | reposición,3,Ġrecurso | Ġde | ĠreposiciÃ³n,4,▁recurso | ▁de | ▁re | posición,3,▁recurso | ▁de | ▁reposición
+termino_tecnico_o_arcaismo,procedimiento sancionador,2,3,procedimiento | sancion | ##ador,2,Ġprocedimiento | Ġsancionador,3,▁procedimiento | ▁sanciona | dor,2,▁procedimiento | ▁sancionador
+termino_tecnico_o_arcaismo,medida cautelar,2,3,medida | caute | ##lar,2,Ġmedida | Ġcautelar,3,▁medida | ▁cautela | r,3,▁medida | ▁caut | elar
+termino_tecnico_o_arcaismo,interés legítimo,2,2,interés | legítimo,2,ĠinterÃ©s | ĠlegÃŃtimo,3,▁interés | ▁legítim | o,2,▁interés | ▁legítimo

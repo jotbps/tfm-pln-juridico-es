@@ -1,0 +1,182 @@
+{
+  "script_version": "1.0.0",
+  "generated_at_utc": "2026-09-05T16:27:57.782435+00:00",
+  "sampling": {
+    "target_docs": 400,
+    "actual_docs": 400,
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "issue_dates": [
+      "20210115",
+      "20210215",
+      "20210415",
+      "20210515",
+      "20210715",
+      "20210816",
+      "20211015",
+      "20211115",
+      "20220115",
+      "20220215",
+      "20220415",
+      "20220516",
+      "20220715",
+      "20220815",
+      "20221015",
+      "20221115",
+      "20230116",
+      "20230215",
+      "20230415",
+      "20230515",
+      "20230715",
+      "20230815",
+      "20231016",
+      "20231115",
+      "20240115",
+      "20240215",
+      "20240415",
+      "20240515",
+      "20240715",
+      "20240815",
+      "20241015",
+      "20241115",
+      "20250115",
+      "20250215",
+      "20250415",
+      "20250515",
+      "20250715",
+      "20250815",
+      "20251015",
+      "20251115"
+    ],
+    "n_issue_dates": 40,
+    "docs_per_issue_initial": 10,
+    "anchor_month_days": [
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ]
+    ],
+    "seed": 20260730,
+    "min_text_chars": 200,
+    "max_text_chars": 1500000,
+    "excluded_documents": 1
+  },
+  "boe_api": "https://www.boe.es/datosabiertos/api/boe/sumario/{date}",
+  "tokenizers": {
+    "BETO": {
+      "repo_id": "dccuchile/bert-base-spanish-wwm-cased",
+      "snapshot_commit_or_dir": "c4d86612f51b4f46759c8390d1798c2febe71b93",
+      "tokenizer_class": "BertTokenizerFast",
+      "vocab_size": "31002"
+    },
+    "RoBERTalex": {
+      "repo_id": "PlanTL-GOB-ES/RoBERTalex",
+      "snapshot_commit_or_dir": "52ba14c94da3d66d1dcb8ae9efb4c2a1dee5fcc2",
+      "tokenizer_class": "RobertaTokenizerFast",
+      "vocab_size": "52000"
+    },
+    "MEL": {
+      "repo_id": "IIC/MEL",
+      "snapshot_commit_or_dir": "4584d5998b31adaeb9faebf2d960354971a513b5",
+      "tokenizer_class": "XLMRobertaTokenizerFast",
+      "vocab_size": "250002"
+    },
+    "MrBERT-legal": {
+      "repo_id": "BSC-LT/MrBERT-legal",
+      "snapshot_commit_or_dir": "7e86e69d580ac37e4b505580a8950dd003f4a457",
+      "tokenizer_class": "LlamaTokenizerFast",
+      "vocab_size": "256000"
+    }
+  },
+  "document_length": {
+    "add_special_tokens": true,
+    "truncation": false,
+    "thresholds": [
+      512,
+      4096,
+      8192
+    ],
+    "percentiles": [
+      50,
+      90,
+      95
+    ]
+  },
+  "term_fragmentation": {
+    "terms_file": "terminos_juridicos_125.csv",
+    "n_terms": 125,
+    "add_special_tokens": false,
+    "primary_measure": "subtokens_per_orthographic_word"
+  },
+  "svm": {
+    "target": "section",
+    "label_column": "section_code",
+    "test_year": 2025,
+    "train_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "n_train": 316,
+    "n_test": 78,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2A",
+      "2B",
+      "3"
+    ],
+    "macro_f1": 0.9577128102615359,
+    "accuracy": 0.9615384615384616,
+    "balanced_accuracy": 0.953125,
+    "vectorizer": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.95,
+      "sublinear_tf": true,
+      "max_features": 50000
+    },
+    "classifier": {
+      "name": "LinearSVC",
+      "C": 1.0,
+      "class_weight": "balanced"
+    }
+  }
+}

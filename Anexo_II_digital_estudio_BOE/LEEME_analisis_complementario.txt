@@ -1,0 +1,21 @@
+ANEXO II DIGITAL. ANALISIS COMPLEMENTARIO
+
+Se conservan sin modificar los resultados y el codigo original del estudio BOE.
+La carpeta analisis_complementario contiene resultados derivados de esos CSV.
+No se han descargado nuevos documentos ni repetido la tokenizacion o el entrenamiento.
+
+Reproduccion desde esta carpeta, con numpy y pandas instalados:
+python codigo/analisis_complementario.py resultados analisis_complementario
+
+Archivos nuevos:
+comparativa_percentiles.csv: mediana, P90, P95, diferencias frente a BETO y cola.
+cobertura_ventanas.csv: recuentos y porcentajes con las ventanas de la tabla 7.1.
+sensibilidad_por_fecha.csv: 480 resultados (40 fechas x 4 tokenizadores x 3 estadisticos).
+sensibilidad_resumen.csv: rangos y cambios relativos maximos, tabla AII.6.
+distribucion_por_fecha.csv: numero real de textos por fecha (38 fechas con 10, una con 9 y otra con 11).
+errores_seccion_III.json: lectura de la matriz de confusion original.
+manifiesto_analisis_complementario.json: versiones y hashes SHA-256 de entradas y script.
+
+Interpretacion: los rangos por omision de fecha NO son intervalos de confianza poblacionales.
+La comparacion se refiere a compacidad y cobertura de entrada, no a rendimiento de encoders.
+Los textos sugeridos por el script original conservados en resultados no sustituyen la redaccion final del TFM.

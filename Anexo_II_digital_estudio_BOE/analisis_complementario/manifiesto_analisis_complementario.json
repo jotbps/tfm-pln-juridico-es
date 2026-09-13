@@ -1,0 +1,23 @@
+{
+  "analysis_version": "1.0",
+  "n_documents": 400,
+  "n_dates": 40,
+  "percentile_method": "linear",
+  "omission_unit": "issue_date",
+  "scope": "descriptive sensitivity, not population confidence intervals",
+  "windows_from": "TFM table 7.1",
+  "windows": {
+    "BETO": 512,
+    "RoBERTalex": 512,
+    "MEL": 512,
+    "MrBERT-legal": 8192
+  },
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "sha256": {
+    "longitudes_por_documento.csv": "1d5a6f21bef9d02ae35e7d0eec2973aea1df8ec9043ee81240d566f8f7200ff7",
+    "svm_matriz_confusion.csv": "625e3b5ddc07d0249e0519617c72d8aaad158484311b3a31ed9426211cf94354",
+    "analisis_complementario.py": "0989186a279f5a7913a6af64da347b200cf508b92da2f45fb7b0cf2e0d898a75"
+  }
+}

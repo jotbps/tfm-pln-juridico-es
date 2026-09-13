@@ -1,0 +1,126 @@
+﻿categoria,termino
+latinismo,ad hoc
+latinismo,ad cautelam
+latinismo,ad personam
+latinismo,a fortiori
+latinismo,a priori
+latinismo,a posteriori
+latinismo,ex ante
+latinismo,ex post
+latinismo,ex officio
+latinismo,in dubio pro reo
+latinismo,iura novit curia
+latinismo,lex specialis derogat legi generali
+latinismo,lex posterior derogat priori
+latinismo,mutatis mutandis
+latinismo,non bis in idem
+latinismo,per se
+latinismo,prima facie
+latinismo,ratio decidendi
+latinismo,obiter dictum
+latinismo,sui generis
+latinismo,ultra vires
+latinismo,inter partes
+latinismo,erga omnes
+latinismo,fumus boni iuris
+latinismo,periculum in mora
+latinismo,pacta sunt servanda
+latinismo,rebus sic stantibus
+latinismo,de lege lata
+latinismo,de lege ferenda
+latinismo,locus standi
+colocacion_juridica,interponer recurso
+colocacion_juridica,formular alegaciones
+colocacion_juridica,dictar sentencia
+colocacion_juridica,dictar resolución
+colocacion_juridica,emitir informe
+colocacion_juridica,incoar expediente
+colocacion_juridica,tramitar expediente
+colocacion_juridica,resolver el procedimiento
+colocacion_juridica,practicar diligencias
+colocacion_juridica,evacuar trámite
+colocacion_juridica,conceder audiencia
+colocacion_juridica,abrir período de prueba
+colocacion_juridica,admitir a trámite
+colocacion_juridica,inadmitir el recurso
+colocacion_juridica,estimar la demanda
+colocacion_juridica,desestimar la pretensión
+colocacion_juridica,estimar parcialmente
+colocacion_juridica,imponer las costas
+colocacion_juridica,absolver al acusado
+colocacion_juridica,condenar al demandado
+colocacion_juridica,declarar la nulidad
+colocacion_juridica,acordar el archivo
+colocacion_juridica,notificar la resolución
+colocacion_juridica,publicar la disposición
+colocacion_juridica,interponer demanda
+colocacion_juridica,presentar escrito
+colocacion_juridica,aportar documentación
+colocacion_juridica,subsanar defectos
+colocacion_juridica,cumplir el requerimiento
+colocacion_juridica,agotar la vía administrativa
+colocacion_juridica,ejercer la potestad sancionadora
+colocacion_juridica,adoptar medidas cautelares
+colocacion_juridica,solicitar autorización
+colocacion_juridica,otorgar la concesión
+colocacion_juridica,revocar la autorización
+formula_ritual,de conformidad con lo dispuesto en
+formula_ritual,sin perjuicio de lo establecido en
+formula_ritual,en virtud de lo previsto en
+formula_ritual,a los efectos de lo dispuesto en
+formula_ritual,de acuerdo con lo establecido en
+formula_ritual,con arreglo a lo dispuesto en
+formula_ritual,al amparo de lo previsto en
+formula_ritual,en cumplimiento de lo establecido en
+formula_ritual,de conformidad con la normativa aplicable
+formula_ritual,en uso de las atribuciones conferidas
+formula_ritual,en el ejercicio de las competencias atribuidas
+formula_ritual,por todo lo expuesto
+formula_ritual,en atención a lo expuesto
+formula_ritual,visto el expediente
+formula_ritual,vistos los preceptos citados
+formula_ritual,oídas las partes
+formula_ritual,previo informe favorable
+formula_ritual,previa audiencia de los interesados
+formula_ritual,una vez cumplidos los trámites preceptivos
+formula_ritual,contra la presente resolución podrá interponerse
+formula_ritual,la presente resolución pone fin a la vía administrativa
+formula_ritual,notifíquese a las partes
+formula_ritual,publíquese en el Boletín Oficial del Estado
+formula_ritual,comuníquese a los interesados
+formula_ritual,y para que conste
+formula_ritual,así lo acuerda y firma
+formula_ritual,dado en Madrid
+formula_ritual,por delegación
+formula_ritual,en nombre del Rey
+formula_ritual,he resuelto
+formula_ritual,se dispone
+formula_ritual,se hace saber
+formula_ritual,queda derogada
+formula_ritual,entrará en vigor
+formula_ritual,lo que se comunica para su conocimiento y efectos
+termino_tecnico_o_arcaismo,providencia
+termino_tecnico_o_arcaismo,emplazamiento
+termino_tecnico_o_arcaismo,recurrente
+termino_tecnico_o_arcaismo,recurrido
+termino_tecnico_o_arcaismo,litispendencia
+termino_tecnico_o_arcaismo,preclusión
+termino_tecnico_o_arcaismo,caducidad
+termino_tecnico_o_arcaismo,prescripción
+termino_tecnico_o_arcaismo,legitimación activa
+termino_tecnico_o_arcaismo,legitimación pasiva
+termino_tecnico_o_arcaismo,jurisdicción
+termino_tecnico_o_arcaismo,competencia objetiva
+termino_tecnico_o_arcaismo,competencia territorial
+termino_tecnico_o_arcaismo,cosa juzgada
+termino_tecnico_o_arcaismo,tutela judicial efectiva
+termino_tecnico_o_arcaismo,silencio administrativo
+termino_tecnico_o_arcaismo,desviación de poder
+termino_tecnico_o_arcaismo,acto administrativo
+termino_tecnico_o_arcaismo,potestad reglamentaria
+termino_tecnico_o_arcaismo,responsabilidad patrimonial
+termino_tecnico_o_arcaismo,recurso de alzada
+termino_tecnico_o_arcaismo,recurso de reposición
+termino_tecnico_o_arcaismo,procedimiento sancionador
+termino_tecnico_o_arcaismo,medida cautelar
+termino_tecnico_o_arcaismo,interés legítimo

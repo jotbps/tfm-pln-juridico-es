@@ -1,0 +1,109 @@
+ANEXO II DIGITAL. ESTUDIO BOE
+
+QUÉ ES
+Este ZIP es el material complementario del TFM, no otra versión del documento.
+Conserva el código, la descripción de la muestra, las mediciones originales,
+las figuras y los resultados derivados del análisis complementario.
+Nombre de este paquete: Anexo_II_digital_estudio_BOE.zip.
+La mención del ZIP en la memoria debe coincidir con este nombre.
+
+QUÉ CONTIENE
+1. codigo/: programa original, dependencias, análisis complementario y un
+   verificador de los resultados guardados.
+2. datos/: las 125 expresiones jurídicas usadas para estudiar la fragmentación.
+3. resultados/: metadatos de las 400 disposiciones, longitudes por documento,
+   fragmentación por expresión, tablas resumen, resultados del clasificador,
+   figuras, exclusiones, registro de ejecución y manifiesto original.
+4. analisis_complementario/: comparación de percentiles, cobertura de
+   ventanas, 480 resultados de sensibilidad por fecha, resumen de sensibilidad
+   y lectura de los errores de la sección III.
+5. documentacion/: correspondencia entre archivos y tablas del TFM y
+   diccionario de los campos de los CSV.
+6. verificacion/: informe de las comprobaciones realizadas sobre el paquete.
+7. INVENTARIO.csv y SHA256SUMS.txt: relación de archivos y huellas de integridad.
+
+POR DÓNDE EMPEZAR
+Para leer los resultados no hay que ejecutar ningún programa.
+Abre primero documentacion/CONTENIDO_Y_RELACION_TFM.md y después:
+- resultados/tabla_longitudes_resumen.csv: tabla 7.2.
+- resultados/tabla_fragmentacion_resumen.csv: tabla 7.3.
+- analisis_complementario/cobertura_ventanas.csv: tabla 7.4.
+- analisis_complementario/sensibilidad_resumen.csv: tabla AII.6.
+- resultados/svm_metricas_por_clase.csv: tabla AII.3.
+- resultados/svm_matriz_confusion.csv: tabla AII.4.
+Los CSV usan coma como separador y punto decimal. Algunos contienen BOM UTF-8.
+Al abrirlos con una hoja de cálculo, usa la importación de texto/CSV y evita
+sobrescribir los originales con otro separador o formato decimal.
+
+QUÉ NO CONTIENE
+No incluye los cuerpos completos de las disposiciones (corpus_boe_local.csv.gz),
+ni la caché XML/HTML, ni la caché de tokenizadores. El script original excluyó
+esos archivos del ZIP compartible. No se han recuperado ni inventado ahora.
+Tampoco contiene pesos neuronales, un clasificador SVM serializado ni las
+predicciones individuales identificadas por documento.
+
+ALCANCE DE LA REPRODUCIBILIDAD
+Con lo incluido se pueden recalcular sin red los resúmenes de longitudes y
+fragmentación, las coberturas, los 480 resultados de sensibilidad y las métricas
+a partir de la matriz de confusión.
+No se puede volver a tokenizar los 400 cuerpos o reentrenar el SVM sin disponer
+de esos textos. Los metadatos incluyen los identificadores, enlaces XML/HTML/PDF
+y las huellas de los textos, pero no sustituyen a los cuerpos originales.
+Para reproducir completamente esa fase hace falta conservar o recuperar los
+textos y comprobar sus huellas, además de usar las revisiones de tokenizador
+registradas en resultados/manifiesto_reproducibilidad.json.
+
+Los hashes de los textos están preservados, pero no se han vuelto a comprobar
+contra los cuerpos porque estos no están en este paquete.
+El manifiesto inicial no registra todas las versiones de librerías. El archivo
+codigo/requirements.txt contiene intervalos, no un bloqueo exacto del entorno.
+El script original registra la revisión que descarga, pero no la fija mediante
+un argumento revision en snapshot_download. Una ejecución nueva tal como está
+puede descargar versiones diferentes. No se debe confundir una repetición nueva
+con la reconstrucción exacta de la ejecución histórica.
+
+VERIFICAR O RECALCULAR SIN DESCARGAS
+Desde la carpeta Anexo_II_digital_estudio_BOE, con NumPy y pandas disponibles:
+
+    python codigo/verificar_anexo.py
+
+El verificador comprueba los CSV y los hashes. No cambia los datos originales.
+Para volver a generar los resultados complementarios en una carpeta nueva:
+
+    python codigo/analisis_complementario.py resultados recalculo_local
+
+La segunda instrucción no descarga documentos ni tokenizadores, ni entrena.
+El entorno de la verificación actual figura en
+verificacion/resultado_verificacion.json. El manifiesto complementario conserva
+las versiones de su ejecución original.
+No es necesario volver a ejecutar Colab para entregar o consultar este ZIP.
+
+EJECUTAR DE NUEVO EL ESTUDIO COMPLETO
+Esta vía es opcional, utiliza red y no se ha ejecutado al preparar esta entrega.
+Instala las dependencias de codigo/requirements.txt en un entorno aislado.
+Usa una carpeta de salida distinta para no sobreescribir los resultados:
+
+    python codigo/tfm_boe_experiment.py --terms-file datos/terminos_juridicos_125.csv --output-dir nueva_ejecucion
+
+El argumento --terms-file es necesario: en el paquete el listado está en datos/,
+no junto al script. Los dobles guiones de esta orden son sintaxis del programa.
+Para repetir exactamente la ejecución original deben tenerse en cuenta las
+limitaciones sobre textos, versiones y revisiones indicadas arriba.
+
+ESTADO DE LA ENTREGA
+Se conservan los 41 archivos del paquete. Los datos, resultados, imágenes,
+registro original, dependencias y scripts del estudio no se han modificado.
+Se han normalizado nombres y referencias editoriales, actualizado la ruta del
+verificador y regenerado el inventario y las huellas de integridad.
+El registro correspondencia_TFM_historica.json documenta un contraste previo
+con el documento identificado por su SHA-256; no es una nueva revisión del Word.
+No se ha cambiado el Word ni ninguno de sus resultados experimentales.
+resultados/texto_para_integrar_en_TFM.md es una salida histórica del script;
+no debe sustituir a la redacción revisada del TFM.
+Las figuras adicionales del estudio se conservan como material de respaldo.
+El nombre de un PNG no debe interpretarse como una nueva medición.
+
+PARA EL DEPÓSITO
+Entrega el ZIP como material complementario por la vía indicada por tu centro,
+junto al TFM, conservando el nombre Anexo_II_digital_estudio_BOE.zip.
+No hay que pegar todos estos archivos de nuevo dentro del documento.

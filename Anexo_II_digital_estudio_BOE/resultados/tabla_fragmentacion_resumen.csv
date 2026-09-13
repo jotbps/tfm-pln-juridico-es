@@ -1,0 +1,5 @@
+﻿tokenizer,n_terms,mean_subtokens,median_subtokens,p90_subtokens,mean_subtokens_per_word,median_subtokens_per_word,pct_fragmented,mean_excess_subtokens
+BETO,125,3.840,3.000,6.000,1.332,1.000,46.400,0.776
+RoBERTalex,125,3.448,3.000,6.000,1.169,1.000,20.800,0.384
+MEL,125,4.264,4.000,7.000,1.514,1.333,71.200,1.200
+MrBERT-legal,125,3.888,3.000,6.000,1.355,1.250,54.400,0.824
